@@ -23,20 +23,17 @@
   body{background:var(--black);color:var(--text);font-family:var(--body);font-size:18px;line-height:1.5;min-height:100vh;background-image:var(--scanline),linear-gradient(90deg,var(--grid) 1px,transparent 1px),linear-gradient(0deg,var(--grid) 1px,transparent 1px);background-size:100% 4px,40px 40px,40px 40px;animation:flicker 4s infinite;}
   ::selection{background:var(--magenta);color:#000;}
   .container{max-width:860px;margin:0 auto;padding:32px 20px 100px;}
-
   .header{text-align:center;padding:40px 0 36px;}
   .header-rule{height:3px;background:linear-gradient(90deg,transparent,var(--cyan),var(--magenta),var(--yellow),var(--cyan),transparent);margin-bottom:28px;}
   .header h1{font-family:var(--heading);font-size:16px;letter-spacing:2px;color:var(--cyan);text-shadow:var(--glow-cyan),0 0 40px rgba(0,255,247,0.15);line-height:2;margin-bottom:6px;}
   .header h1 .accent{color:var(--magenta);text-shadow:var(--glow-magenta);}
   .header .sub{font-family:var(--body);font-size:20px;color:var(--text-dim);letter-spacing:1px;}
   .header-rule-bottom{height:2px;background:linear-gradient(90deg,transparent,var(--magenta),var(--cyan),transparent);margin-top:28px;}
-
   .section{background:var(--panel);border:1px solid var(--border);border-radius:2px;margin-bottom:24px;position:relative;overflow:hidden;}
   .section::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--cyan),var(--magenta));}
   .section-inner{padding:24px 28px 28px;}
   .section-label{font-family:var(--heading);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--yellow);text-shadow:0 0 6px rgba(255,230,0,0.3);margin-bottom:20px;display:flex;align-items:center;gap:10px;}
   .section-label .num{font-family:var(--heading);font-size:10px;background:var(--magenta);color:#000;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;box-shadow:var(--glow-magenta);}
-
   .btn{font-family:var(--heading);font-size:9px;letter-spacing:1px;padding:12px 22px;border:2px solid;cursor:pointer;transition:all 0.12s;display:inline-flex;align-items:center;gap:8px;text-transform:uppercase;background:transparent;}
   .btn:disabled{opacity:0.3;cursor:not-allowed;}
   .btn-cyan{border-color:var(--cyan);color:var(--cyan);text-shadow:var(--glow-cyan);}
@@ -47,7 +44,6 @@
   .btn-green:hover:not(:disabled){background:rgba(57,255,20,0.08);box-shadow:var(--glow-green);}
   .btn-sm{font-size:8px;padding:8px 14px;}
   .btn-copy.copied{border-color:var(--green)!important;color:var(--green)!important;}
-
   .upload-zones-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
   .upload-zone{border:2px dashed var(--border);padding:28px 12px;text-align:center;cursor:pointer;transition:all 0.2s;background:repeating-linear-gradient(-45deg,transparent,transparent 10px,rgba(0,255,247,0.015) 10px,rgba(0,255,247,0.015) 20px);position:relative;}
   .upload-zone:hover,.upload-zone.dragover{border-color:var(--cyan);background:rgba(0,255,247,0.03);}
@@ -62,21 +58,12 @@
   .upload-zone .zone-preview{margin-top:10px;max-width:100%;max-height:140px;object-fit:contain;border:1px solid var(--border);background:var(--dark);}
   .upload-zone .zone-preview-video{margin-top:10px;max-width:100%;max-height:140px;border:1px solid var(--border);background:var(--dark);}
   .upload-zone.has-file .icon,.upload-zone.has-file .label,.upload-zone.has-file .formats{display:none;}
-
-  .minted-links{margin-top:20px;}
-  .minted-link{background:var(--panel2);border-left:3px solid var(--green);padding:14px 16px;margin-bottom:8px;display:flex;align-items:center;gap:12px;}
-  .minted-link .ml-icon{flex-shrink:0;width:32px;height:32px;background:rgba(57,255,20,0.08);border:1px solid rgba(57,255,20,0.2);display:flex;align-items:center;justify-content:center;font-size:16px;}
-  .minted-link .ml-details{flex:1;min-width:0;}
-  .minted-link .ml-name{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--green);margin-bottom:3px;}
-  .minted-link .ml-url{font-family:var(--mono);font-size:11px;color:var(--cyan);word-break:break-all;line-height:1.5;opacity:0.8;}
-
   .progress-wrap{height:8px;background:var(--panel2);border:1px solid var(--border);margin-top:14px;display:none;overflow:hidden;}
   .progress-wrap.active{display:block;}
   .progress-fill{height:100%;background:linear-gradient(90deg,var(--cyan),var(--magenta));transition:width 0.3s;width:0%;box-shadow:0 0 10px rgba(0,255,247,0.3);}
   .status-msg{font-family:var(--mono);font-size:14px;color:var(--text-dim);margin-top:8px;min-height:20px;}
   .status-msg.error{color:var(--hotpink);}
   .status-msg.success{color:var(--green);text-shadow:var(--glow-green);}
-
   .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
   .form-grid .full{grid-column:1/-1;}
   .field label{display:block;font-family:var(--heading);font-size:8px;letter-spacing:1px;color:var(--cyan);margin-bottom:8px;text-transform:uppercase;}
@@ -86,30 +73,27 @@
   .field textarea{resize:vertical;min-height:72px;}
   .field select{cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%2300fff7'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:32px;}
   .field select option{background:var(--dark);color:var(--text);}
-
   .at-input-wrap{display:flex;align-items:stretch;background:var(--dark);border:1px solid var(--border);transition:border-color 0.15s;}
   .at-input-wrap:focus-within{border-color:var(--cyan);box-shadow:0 0 6px rgba(0,255,247,0.15);}
   .at-input-wrap .at-prefix{display:flex;align-items:center;padding:0 10px;font-family:var(--mono);font-size:16px;font-weight:600;color:var(--magenta);background:rgba(255,0,255,0.08);border-right:1px solid var(--border);user-select:none;flex-shrink:0;}
   .at-input-wrap input{border:none!important;background:transparent!important;box-shadow:none!important;outline:none!important;flex:1;padding:10px 12px;font-family:var(--mono);font-size:14px;color:var(--text);}
-
   .json-preview{background:var(--black);border:1px solid var(--border);padding:18px;font-family:var(--mono);font-size:13px;line-height:1.7;color:var(--green);white-space:pre-wrap;word-break:break-all;max-height:440px;overflow-y:auto;margin-top:18px;display:none;text-shadow:0 0 4px rgba(57,255,20,0.15);}
   .json-preview.visible{display:block;}
-
   .payment-box{background:var(--dark);border:2px solid var(--yellow);padding:20px;margin:16px 0;text-align:center;box-shadow:0 0 20px rgba(255,230,0,0.05);}
   .payment-label{font-family:var(--heading);font-size:8px;letter-spacing:2px;color:var(--text-dim);text-transform:uppercase;}
   .payment-amount{font-family:var(--heading);font-size:18px;color:var(--yellow);text-shadow:0 0 10px rgba(255,230,0,0.3);margin:8px 0;}
   .payment-addr{font-family:var(--mono);font-size:12px;color:var(--cyan);background:var(--panel);border:1px solid var(--border);padding:10px;cursor:pointer;word-break:break-all;transition:border-color 0.15s;}
   .payment-addr:hover{border-color:var(--cyan);}
-
   .final-result{background:linear-gradient(135deg,rgba(57,255,20,0.04),rgba(0,255,247,0.04));border:2px solid var(--green);padding:24px;text-align:center;display:none;margin-top:18px;box-shadow:inset 0 0 40px rgba(57,255,20,0.03),var(--glow-green);}
   .final-result.visible{display:block;}
   .final-result .fr-label{font-family:var(--heading);font-size:10px;letter-spacing:2px;color:var(--green);text-shadow:var(--glow-green);margin-bottom:14px;}
   .final-result .fr-url{font-family:var(--mono);font-size:13px;color:var(--cyan);word-break:break-all;background:var(--dark);border:1px solid var(--border);padding:14px;margin-bottom:14px;line-height:1.6;text-align:left;}
   .final-result .fr-hint{font-family:var(--body);font-size:18px;color:var(--text-dim);margin-top:10px;}
-
+  .final-result .fr-media{margin-top:14px;text-align:left;}
+  .final-result .fr-media-item{font-family:var(--mono);font-size:11px;color:var(--text-dim);padding:4px 0;word-break:break-all;}
+  .final-result .fr-media-item span{color:var(--cyan);}
   .actions{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap;}
   .hidden{display:none!important;}
-
   @keyframes flicker{0%,97%,100%{opacity:1;}98%{opacity:0.97;}99%{opacity:0.99;}}
   @media(max-width:640px){.form-grid{grid-template-columns:1fr;}.upload-zones-grid{grid-template-columns:1fr 1fr;}.header h1{font-size:11px;}}
   @media(max-width:420px){.upload-zones-grid{grid-template-columns:1fr;}}
@@ -121,88 +105,67 @@
   <div class="header">
     <div class="header-rule"></div>
     <h1>ARWEAVE MINT & <span class="accent">XCP JSON</span> BUILDER</h1>
-    <div class="sub">Upload media to Arweave &bull; Build Counterparty asset JSON &bull; Pay 1,984 sats to reveal</div>
+    <div class="sub">Select media &bull; Build asset JSON &bull; Mint to Arweave &bull; Pay 1,984 sats to reveal</div>
     <div class="header-rule-bottom"></div>
   </div>
 
-  <!-- 1: MEDIA UPLOAD -->
+  <!-- 1: SELECT MEDIA (local preview only, no upload yet) -->
   <div class="section"><div class="section-inner">
-    <div class="section-label"><span class="num">1</span> Mint Media to Arweave</div>
+    <div class="section-label"><span class="num">1</span> Select Media Files</div>
     <div class="upload-zones-grid">
       <div class="upload-zone" id="zoneThumb" onclick="document.getElementById('inputThumb').click()">
         <input type="file" id="inputThumb" accept="image/png,image/jpg,image/jpeg,image/gif">
-        <div class="icon">🖼️</div>
-        <div class="label"><strong>Thumbnail</strong></div>
+        <div class="icon">🖼️</div><div class="label"><strong>Thumbnail</strong></div>
         <div class="formats">48&times;48 &middot; PNG / JPG / GIF</div>
         <div class="zone-file" id="zoneThumbFile"></div>
       </div>
       <div class="upload-zone" id="zoneImage" onclick="document.getElementById('inputImage').click()">
         <input type="file" id="inputImage" accept="image/png,image/jpg,image/jpeg,image/gif">
-        <div class="icon">🎨</div>
-        <div class="label"><strong>Main Image</strong></div>
+        <div class="icon">🎨</div><div class="label"><strong>Main Image</strong></div>
         <div class="formats">PNG / JPG / GIF</div>
         <div class="zone-file" id="zoneImageFile"></div>
       </div>
       <div class="upload-zone" id="zoneVideo" onclick="document.getElementById('inputVideo').click()">
         <input type="file" id="inputVideo" accept="video/mp4">
-        <div class="icon">🎬</div>
-        <div class="label"><strong>Video</strong></div>
+        <div class="icon">🎬</div><div class="label"><strong>Video</strong></div>
         <div class="formats">MP4</div>
         <div class="zone-file" id="zoneVideoFile"></div>
       </div>
       <div class="upload-zone" id="zoneAudio" onclick="document.getElementById('inputAudio').click()">
         <input type="file" id="inputAudio" accept="audio/mpeg,audio/mp3">
-        <div class="icon">🎵</div>
-        <div class="label"><strong>Audio</strong></div>
+        <div class="icon">🎵</div><div class="label"><strong>Audio</strong></div>
         <div class="formats">MP3</div>
         <div class="zone-file" id="zoneAudioFile"></div>
       </div>
     </div>
-    <div class="actions"><button class="btn btn-magenta hidden" id="btnMintMedia" onclick="mintAllMedia()">&#9654; Mint Files</button></div>
-    <div class="progress-wrap" id="mediaProgress"><div class="progress-fill" id="mediaProgressFill"></div></div>
-    <div class="status-msg" id="mediaStatus"></div>
-    <div class="minted-links" id="mintedLinks"></div>
   </div></div>
 
-  <!-- 2: JSON BUILDER -->
+  <!-- 2: JSON BUILDER (media URLs shown as placeholders) -->
   <div class="section"><div class="section-inner">
     <div class="section-label"><span class="num">2</span> Build Asset JSON</div>
     <div class="form-grid">
-      <div class="field">
-        <label>Asset Name</label>
-        <div class="at-input-wrap">
-          <span class="at-prefix">@</span>
-          <input type="text" id="jsonAssetName" placeholder="e.g. MYTOKEN">
-        </div>
-      </div>
+      <div class="field"><label>Asset Name</label><div class="at-input-wrap"><span class="at-prefix">@</span><input type="text" id="jsonAssetName" placeholder="e.g. MYTOKEN"></div></div>
       <div class="field"><label>Artist / PGPSIG <span class="opt">(optional)</span></label><input type="text" id="jsonPgpsig" placeholder="Artist name"></div>
       <div class="field full"><label>Description <span class="opt">(optional)</span></label><textarea id="jsonDescription" placeholder="Text description of your asset"></textarea></div>
       <div class="field"><label>Category <span class="opt">(optional)</span></label><select id="jsonCategory" onchange="filterSubcategories()"><option value="">— None —</option><option value="Art">Art</option><option value="Artist, Band or Public Figure">Artist, Band or Public Figure</option><option value="Brand or Product">Brand or Product</option><option value="Cause or Community">Cause or Community</option><option value="Company, Organization or Institution">Company, Organization or Institution</option><option value="Entertainment">Entertainment</option><option value="Local Business or Place">Local Business or Place</option></select></div>
       <div class="field"><label>Subcategory <span class="opt">(optional)</span></label><select id="jsonSubcategory"><option value="">— None —</option></select></div>
-      <div class="field full"><label>Thumbnail URL (48x48) <span class="opt">(optional)</span></label><input type="text" id="jsonThumb" placeholder="https://...ar.io/..."></div>
-      <div class="field full"><label>Large Image URL <span class="opt">(optional)</span></label><input type="text" id="jsonImage" placeholder="https://...ar.io/... (main image or gif)"></div>
-      <div class="field full"><label>HiRes Image URL <span class="opt">(optional)</span></label><input type="text" id="jsonImageLarge" placeholder="https://...ar.io/... (high resolution)"></div>
-      <div class="field full"><label>MP4 Video URL <span class="opt">(optional)</span></label><input type="text" id="jsonVideo" placeholder="https://...ar.io/... (mp4 video)"></div>
-      <div class="field full"><label>MP3 Audio URL <span class="opt">(optional)</span></label><input type="text" id="jsonAudio" placeholder="https://...ar.io/... (mp3 audio)"></div>
       <div class="field full"><label>Twitter / X URL <span class="opt">(optional)</span></label><input type="text" id="jsonTwitter" placeholder="https://x.com/yourhandle"></div>
       <div class="field full"><label>Website URL <span class="opt">(optional)</span></label><input type="text" id="jsonWebsite" placeholder="https://yoursite.com"></div>
     </div>
     <div class="actions">
-      <button class="btn btn-cyan" onclick="generateJSON()">Generate JSON</button>
-      <button class="btn btn-green btn-sm hidden" id="btnCopyJson" onclick="copyJSON()">Copy JSON</button>
+      <button class="btn btn-cyan" onclick="generateJSON()">Preview JSON</button>
     </div>
     <div class="json-preview" id="jsonPreview"></div>
   </div></div>
 
-  <!-- 3: MINT JSON + PAY -->
+  <!-- 3: MINT ALL + PAY TO REVEAL -->
   <div class="section"><div class="section-inner">
-    <div class="section-label"><span class="num">3</span> Mint JSON & Pay to Reveal</div>
-    <p style="font-size:18px;color:var(--text-dim);margin-bottom:18px;">Mint your JSON to Arweave, then pay <strong style="color:var(--yellow)">1,984 sats</strong> to reveal the permanent link.</p>
-    <div class="actions"><button class="btn btn-magenta" id="btnMintJson" onclick="mintJSON()" disabled>&#9654; Mint JSON to Arweave</button></div>
-    <div class="progress-wrap" id="jsonProgress"><div class="progress-fill" id="jsonProgressFill"></div></div>
-    <div class="status-msg" id="jsonStatus"></div>
+    <div class="section-label"><span class="num">3</span> Mint & Pay to Reveal</div>
+    <p style="font-size:18px;color:var(--text-dim);margin-bottom:18px;">Upload all media + JSON to Arweave, then pay <strong style="color:var(--yellow)">1,984 sats</strong> to reveal your permanent links.</p>
+    <div class="actions"><button class="btn btn-magenta" id="btnMintAll" onclick="mintAll()" disabled>&#9654; Mint Everything to Arweave</button></div>
+    <div class="progress-wrap" id="mintProgress"><div class="progress-fill" id="mintProgressFill"></div></div>
+    <div class="status-msg" id="mintStatus"></div>
 
-    <!-- Payment gate (hidden until JSON minted) -->
     <div id="paymentGate" class="hidden">
       <div class="payment-box">
         <div class="payment-label">Send exactly:</div>
@@ -217,10 +180,12 @@
     </div>
 
     <div class="final-result" id="finalResult">
-      <div class="fr-label">&#10003; PAYMENT RECEIVED — JSON REVEALED</div>
+      <div class="fr-label">&#10003; PAYMENT RECEIVED — LINKS REVEALED</div>
+      <div style="font-family:var(--heading);font-size:8px;color:var(--yellow);letter-spacing:1px;margin-bottom:8px;">JSON DESCRIPTION URL:</div>
       <div class="fr-url" id="finalUrl"></div>
       <div><button class="btn btn-green btn-sm" onclick="copyFinalUrl()">Copy JSON Link</button></div>
-      <div class="fr-hint">Paste this URL as your Counterparty token description</div>
+      <div class="fr-media" id="finalMedia"></div>
+      <div class="fr-hint">Paste the JSON URL as your Counterparty token description</div>
     </div>
   </div></div>
 
@@ -232,253 +197,205 @@ var PAYMENT_SATS = 1984;
 var API_BASE = '/api';
 
 var zoneFiles = { thumb: null, image: null, video: null, audio: null };
-var mintedMediaLinks = [];
 var currentJsonString = null;
-var jsonArioUrl = null; // stored but hidden until payment
+// Stored after mint, hidden until payment
+var jsonArioUrl = null;
+var mediaResults = {}; // { thumb: {url, ario_url}, image: {...}, ... }
 
-// ═══ BASE32 (RFC 4648) → ar.io sandbox subdomain ═══
+// ═══ BASE32 → ar.io URL ═══
 var B32 = 'abcdefghijklmnopqrstuvwxyz234567';
 function b64urlToBytes(s){var b=s.replace(/-/g,'+').replace(/_/g,'/');while(b.length%4)b+='=';var d=atob(b),a=new Uint8Array(d.length);for(var i=0;i<d.length;i++)a[i]=d.charCodeAt(i);return a;}
 function toB32(bytes){var bits='';for(var i=0;i<bytes.length;i++)bits+=bytes[i].toString(2).padStart(8,'0');var o='';for(var i=0;i<bits.length;i+=5)o+=B32[parseInt(bits.substring(i,i+5).padEnd(5,'0'),2)];return o;}
-function buildArioUrl(txId,ext){var sb=toB32(b64urlToBytes(txId));var u='https://'+sb+'.ar.io/'+txId;if(ext)u+='?.'+ext;return u;}
-function extForType(ct){return{'image/png':'png','image/jpeg':'jpg','image/jpg':'jpg','image/gif':'gif','video/mp4':'mp4','video/webm':'webm','audio/mpeg':'mp3','audio/mp3':'mp3','application/json':'json'}[ct]||null;}
+function buildArioUrl(txId,ext){var sb=toB32(b64urlToBytes(txId));return 'https://'+sb+'.ar.io/'+txId+(ext?'?.'+ext:'');}
+function extForType(ct){return{'image/png':'png','image/jpeg':'jpg','image/jpg':'jpg','image/gif':'gif','video/mp4':'mp4','audio/mpeg':'mp3','audio/mp3':'mp3','application/json':'json'}[ct]||null;}
 
-// ═══ CATEGORY → SUBCATEGORY MAPPINGS ═══
+// ═══ CATEGORY → SUBCATEGORY ═══
 var subcategoryMap = {
-  'Art': ['NFT','Pepe'],
-  'Artist, Band or Public Figure': ['Actor / Director','Artist','Athlete','Author','Business Person','Chef','Comedian','Dancer','Designer','Entertainer','Entrepreneur','Fictional Character','Journalist','Musician / Band','Photographer','Politician','Public Figure','Writer'],
-  'Brand or Product': ['NFT','Pepe','Product','Service'],
-  'Entertainment': ['NFT','Pepe','Game','Movie','TV Show','Music'],
+  'Art':['NFT','Pepe'],
+  'Artist, Band or Public Figure':['Actor / Director','Artist','Athlete','Author','Comedian','Dancer','Designer','Entertainer','Musician / Band','Photographer','Politician','Public Figure','Writer'],
+  'Brand or Product':['NFT','Product','Service'],
+  'Entertainment':['NFT','Game','Movie','TV Show','Music'],
 };
-function filterSubcategories() {
-  var cat = document.getElementById('jsonCategory').value;
-  var sel = document.getElementById('jsonSubcategory');
-  sel.innerHTML = '<option value="">— None —</option>';
-  if (cat && subcategoryMap[cat]) {
-    subcategoryMap[cat].forEach(function(s) {
-      var opt = document.createElement('option'); opt.value = s; opt.textContent = s; sel.appendChild(opt);
-    });
-  }
+function filterSubcategories(){
+  var cat=document.getElementById('jsonCategory').value,sel=document.getElementById('jsonSubcategory');
+  sel.innerHTML='<option value="">— None —</option>';
+  if(cat&&subcategoryMap[cat])subcategoryMap[cat].forEach(function(s){var o=document.createElement('option');o.value=s;o.textContent=s;sel.appendChild(o);});
 }
 
-// ═══ UPLOAD ZONES ═══
-document.addEventListener('DOMContentLoaded', function() {
-  setupZone('zoneThumb', 'inputThumb', 'zoneThumbFile', 'thumb');
-  setupZone('zoneImage', 'inputImage', 'zoneImageFile', 'image');
-  setupZone('zoneVideo', 'inputVideo', 'zoneVideoFile', 'video');
-  setupZone('zoneAudio', 'inputAudio', 'zoneAudioFile', 'audio');
+// ═══ FILE ZONE SETUP (preview only, no upload) ═══
+document.addEventListener('DOMContentLoaded',function(){
+  setupZone('zoneThumb','inputThumb','zoneThumbFile','thumb');
+  setupZone('zoneImage','inputImage','zoneImageFile','image');
+  setupZone('zoneVideo','inputVideo','zoneVideoFile','video');
+  setupZone('zoneAudio','inputAudio','zoneAudioFile','audio');
 });
 
-function setupZone(zoneId, inputId, fileDisplayId, slot) {
-  var zone = document.getElementById(zoneId);
-  var input = document.getElementById(inputId);
-  var display = document.getElementById(fileDisplayId);
-  input.addEventListener('change', function(e) {
-    var f = e.target.files[0]; if (!f) return;
-    zoneFiles[slot] = f; renderZoneFile(display, f, slot); updateMintButtons(); e.target.value = '';
-  });
-  zone.addEventListener('dragover', function(e) { e.preventDefault(); e.stopPropagation(); zone.classList.add('dragover'); });
-  zone.addEventListener('dragleave', function(e) { e.stopPropagation(); zone.classList.remove('dragover'); });
-  zone.addEventListener('drop', function(e) {
-    e.preventDefault(); e.stopPropagation(); zone.classList.remove('dragover');
-    var f = e.dataTransfer.files[0]; if (!f) return;
-    zoneFiles[slot] = f; renderZoneFile(display, f, slot); updateMintButtons();
-  });
-  zone.addEventListener('click', function(e) { if (e.target.classList.contains('zone-remove')) { e.stopPropagation(); } });
+function setupZone(zoneId,inputId,fileDisplayId,slot){
+  var zone=document.getElementById(zoneId),input=document.getElementById(inputId),display=document.getElementById(fileDisplayId);
+  input.addEventListener('change',function(e){var f=e.target.files[0];if(!f)return;zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();e.target.value='';});
+  zone.addEventListener('dragover',function(e){e.preventDefault();e.stopPropagation();zone.classList.add('dragover');});
+  zone.addEventListener('dragleave',function(e){e.stopPropagation();zone.classList.remove('dragover');});
+  zone.addEventListener('drop',function(e){e.preventDefault();e.stopPropagation();zone.classList.remove('dragover');var f=e.dataTransfer.files[0];if(!f)return;zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();});
+  zone.addEventListener('click',function(e){if(e.target.classList.contains('zone-remove'))e.stopPropagation();});
 }
 
-function renderZoneFile(display, file, slot) {
-  var zoneEl = display.parentElement;
-  if (!file) { display.innerHTML = ''; zoneEl.classList.remove('has-file'); return; }
-  zoneEl.classList.add('has-file');
-  var sz = file.size < 1048576 ? (file.size/1024).toFixed(1)+' KB' : (file.size/1048576).toFixed(2)+' MB';
-  var html = '', objUrl = URL.createObjectURL(file), type = file.type || '';
-  if (type.startsWith('image/')) html += '<img class="zone-preview" src="' + objUrl + '">';
-  else if (type.startsWith('video/')) html += '<video class="zone-preview-video" src="' + objUrl + '" muted autoplay loop playsinline></video>';
-  else if (type.startsWith('audio/')) html += '<audio controls style="max-width:100%;margin-top:10px;" src="' + objUrl + '"></audio>';
-  html += '<div style="margin-top:6px;">' + file.name + ' (' + sz + ') <button class="zone-remove" onclick="removeZoneFile(event,\'' + slot + '\')">&times;</button></div>';
-  display.innerHTML = html;
+function renderZoneFile(display,file,slot){
+  var z=display.parentElement;
+  if(!file){display.innerHTML='';z.classList.remove('has-file');return;}
+  z.classList.add('has-file');
+  var sz=file.size<1048576?(file.size/1024).toFixed(1)+' KB':(file.size/1048576).toFixed(2)+' MB';
+  var html='',url=URL.createObjectURL(file),type=file.type||'';
+  if(type.startsWith('image/'))html+='<img class="zone-preview" src="'+url+'">';
+  else if(type.startsWith('video/'))html+='<video class="zone-preview-video" src="'+url+'" muted autoplay loop playsinline></video>';
+  else if(type.startsWith('audio/'))html+='<audio controls style="max-width:100%;margin-top:10px;" src="'+url+'"></audio>';
+  html+='<div style="margin-top:6px;">'+file.name+' ('+sz+') <button class="zone-remove" onclick="removeZoneFile(event,\''+slot+'\')">&times;</button></div>';
+  display.innerHTML=html;
 }
 
-function removeZoneFile(e, slot) {
-  e.stopPropagation(); zoneFiles[slot] = null;
-  var zoneIds = { thumb:'zoneThumb', image:'zoneImage', video:'zoneVideo', audio:'zoneAudio' };
-  var ids = { thumb:'zoneThumbFile', image:'zoneImageFile', video:'zoneVideoFile', audio:'zoneAudioFile' };
-  document.getElementById(zoneIds[slot]).classList.remove('has-file');
-  document.getElementById(ids[slot]).innerHTML = ''; updateMintButtons();
+function removeZoneFile(e,slot){
+  e.stopPropagation();zoneFiles[slot]=null;
+  var z={thumb:'zoneThumb',image:'zoneImage',video:'zoneVideo',audio:'zoneAudio'};
+  var d={thumb:'zoneThumbFile',image:'zoneImageFile',video:'zoneVideoFile',audio:'zoneAudioFile'};
+  document.getElementById(z[slot]).classList.remove('has-file');
+  document.getElementById(d[slot]).innerHTML='';updateMintBtn();
 }
 
-function updateMintButtons() {
-  var hasFiles = zoneFiles.thumb || zoneFiles.image || zoneFiles.video || zoneFiles.audio;
-  var btn = document.getElementById('btnMintMedia');
-  if (hasFiles) { btn.classList.remove('hidden'); btn.disabled = false; } else { btn.classList.add('hidden'); }
+function updateMintBtn(){
+  var has=zoneFiles.thumb||zoneFiles.image||zoneFiles.video||zoneFiles.audio;
+  document.getElementById('btnMintAll').disabled=!currentJsonString||!has;
 }
 
-// ═══ UPLOAD VIA ACME BACKEND ═══
-async function uploadFile(file) {
-  var formData = new FormData();
-  formData.append('file', file);
-  formData.append('content_type', file.type || 'application/octet-stream');
-  var resp = await fetch(API_BASE + '/arweave/upload', { method: 'POST', body: formData });
-  if (!resp.ok) { var err = await resp.json().catch(function(){return {};}); throw new Error(err.error || 'Upload failed (' + resp.status + ')'); }
-  var data = await resp.json();
-  return data.result;
+// ═══ JSON PREVIEW (with placeholders for media) ═══
+function generateJSON(){
+  var o={},v=function(id){return document.getElementById(id).value.trim();};
+  if(v('jsonAssetName'))o.asset=v('jsonAssetName');
+  if(v('jsonPgpsig'))o.pgpsig=v('jsonPgpsig');
+  if(v('jsonDescription'))o.description=v('jsonDescription');
+  if(v('jsonCategory'))o.category=v('jsonCategory');
+  if(v('jsonSubcategory'))o.subcategory=v('jsonSubcategory');
+  // Show placeholders for attached media
+  if(zoneFiles.thumb)o.image='[thumbnail — will be uploaded]';
+  if(zoneFiles.image)o.image_large='[main image — will be uploaded]';
+  if(zoneFiles.video)o.video='[video — will be uploaded]';
+  if(zoneFiles.audio)o.audio='[audio — will be uploaded]';
+  if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
+  if(v('jsonWebsite'))o.website=v('jsonWebsite');
+  if(!Object.keys(o).length){alert('Fill in at least one field.');return;}
+  currentJsonString=JSON.stringify(o,null,2);
+  var pre=document.getElementById('jsonPreview');
+  pre.textContent=currentJsonString;pre.classList.add('visible');
+  updateMintBtn();
 }
 
-async function mintAllMedia() {
-  var filesToMint = [], slotMap = {};
-  if (zoneFiles.thumb) { filesToMint.push(zoneFiles.thumb); slotMap[filesToMint.length-1] = 'thumb'; }
-  if (zoneFiles.image) { filesToMint.push(zoneFiles.image); slotMap[filesToMint.length-1] = 'image'; }
-  if (zoneFiles.video) { filesToMint.push(zoneFiles.video); slotMap[filesToMint.length-1] = 'video'; }
-  if (zoneFiles.audio) { filesToMint.push(zoneFiles.audio); slotMap[filesToMint.length-1] = 'audio'; }
-  if (!filesToMint.length) return;
+// ═══ UPLOAD FILE VIA ACME BACKEND ═══
+async function uploadFile(file){
+  var fd=new FormData();fd.append('file',file);fd.append('content_type',file.type||'application/octet-stream');
+  var resp=await fetch(API_BASE+'/arweave/upload',{method:'POST',body:fd});
+  if(!resp.ok){var err=await resp.json().catch(function(){return{};});throw new Error(err.error||'Upload failed ('+resp.status+')');}
+  return(await resp.json()).result;
+}
 
-  var btn = document.getElementById('btnMintMedia'), prog = document.getElementById('mediaProgress'), fill = document.getElementById('mediaProgressFill'), status = document.getElementById('mediaStatus');
-  btn.disabled = true; prog.classList.add('active'); status.className = 'status-msg';
-  var fieldMap = { thumb:'jsonThumb', image:'jsonImage', video:'jsonVideo', audio:'jsonAudio' };
-  var total = filesToMint.length, done = 0;
+// ═══ MINT ALL: upload media + build final JSON + upload JSON ═══
+async function mintAll(){
+  if(!currentJsonString){alert('Generate JSON preview first.');return;}
+  var btn=document.getElementById('btnMintAll'),prog=document.getElementById('mintProgress'),fill=document.getElementById('mintProgressFill'),status=document.getElementById('mintStatus');
+  btn.disabled=true;prog.classList.add('active');status.className='status-msg';
+  mediaResults={};
 
-  for (var fi = 0; fi < filesToMint.length; fi++) {
-    var file = filesToMint[fi], slot = slotMap[fi];
-    try {
-      status.textContent = 'Uploading ' + file.name + ' (' + (done+1) + '/' + total + ')...';
-      fill.style.width = ((done/total)*100) + '%';
-      var result = await uploadFile(file);
-      var url = buildArioUrl(result.arweave_txid, extForType(result.content_type));
-      mintedMediaLinks.push({ name: file.name, txId: result.arweave_txid, url: url, contentType: result.content_type });
-      addMintedUI(file.name, url, result.content_type);
-      if (fieldMap[slot]) document.getElementById(fieldMap[slot]).value = url;
-      zoneFiles[slot] = null;
-      var zoneIds = { thumb:'zoneThumb', image:'zoneImage', video:'zoneVideo', audio:'zoneAudio' };
-      var displayIds = { thumb:'zoneThumbFile', image:'zoneImageFile', video:'zoneVideoFile', audio:'zoneAudioFile' };
-      document.getElementById(zoneIds[slot]).classList.remove('has-file');
-      document.getElementById(displayIds[slot]).innerHTML = '';
-      done++; fill.style.width = ((done/total)*100) + '%';
-    } catch(e) {
-      status.className = 'status-msg error'; status.textContent = 'Error: ' + file.name + ' — ' + (e.message||e);
-      btn.disabled = false; updateMintButtons(); return;
+  // Count total steps: media files + JSON upload
+  var slots=[];
+  if(zoneFiles.thumb)slots.push('thumb');
+  if(zoneFiles.image)slots.push('image');
+  if(zoneFiles.video)slots.push('video');
+  if(zoneFiles.audio)slots.push('audio');
+  var total=slots.length+1; // +1 for JSON
+  var done=0;
+
+  // Upload media files
+  var slotToJsonKey={thumb:'image',image:'image_large',video:'video',audio:'audio'};
+  for(var i=0;i<slots.length;i++){
+    var slot=slots[i],file=zoneFiles[slot];
+    status.textContent='Uploading '+file.name+' ('+(done+1)+'/'+total+')...';
+    fill.style.width=((done/total)*100)+'%';
+    try{
+      var result=await uploadFile(file);
+      var arioUrl=buildArioUrl(result.arweave_txid,extForType(result.content_type));
+      mediaResults[slot]={txid:result.arweave_txid,url:result.url,ario_url:arioUrl,name:file.name};
+      done++;fill.style.width=((done/total)*100)+'%';
+    }catch(e){
+      status.className='status-msg error';status.textContent='Error uploading '+file.name+': '+(e.message||e);
+      btn.disabled=false;return;
     }
   }
-  fill.style.width = '100%'; status.className = 'status-msg success'; status.textContent = 'All ' + total + ' file(s) minted!';
-  btn.disabled = false; updateMintButtons();
-  setTimeout(function(){ prog.classList.remove('active'); }, 2500);
-}
 
-function addMintedUI(name, url, ct) {
-  var c = document.getElementById('mintedLinks'), kind = ct.split('/')[0], icons = { image:'🖼️', video:'🎬', audio:'🎵' };
-  var d = document.createElement('div'); d.className = 'minted-link';
-  d.innerHTML = '<div class="ml-icon">' + (icons[kind]||'📄') + '</div><div class="ml-details"><div class="ml-name">' + name + '</div><div class="ml-url">' + url + '</div></div><button class="btn btn-cyan btn-sm btn-copy" onclick="copyText(this,\'' + url + '\')">Copy</button>';
-  c.appendChild(d);
-}
+  // Build final JSON with real ar.io URLs
+  var o={},v=function(id){return document.getElementById(id).value.trim();};
+  if(v('jsonAssetName'))o.asset=v('jsonAssetName');
+  if(v('jsonPgpsig'))o.pgpsig=v('jsonPgpsig');
+  if(v('jsonDescription'))o.description=v('jsonDescription');
+  if(v('jsonCategory'))o.category=v('jsonCategory');
+  if(v('jsonSubcategory'))o.subcategory=v('jsonSubcategory');
+  if(mediaResults.thumb)o.image=mediaResults.thumb.ario_url;
+  if(mediaResults.image)o.image_large=mediaResults.image.ario_url;
+  if(mediaResults.video)o.video=mediaResults.video.ario_url;
+  if(mediaResults.audio)o.audio=mediaResults.audio.ario_url;
+  if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
+  if(v('jsonWebsite'))o.website=v('jsonWebsite');
+  var finalJson=JSON.stringify(o,null,2);
 
-// ═══ JSON BUILDER ═══
-function generateJSON() {
-  var o = {}, v = function(id) { return document.getElementById(id).value.trim(); };
-  if (v('jsonAssetName')) o.asset = v('jsonAssetName');
-  if (v('jsonPgpsig')) o.pgpsig = v('jsonPgpsig');
-  if (v('jsonDescription')) o.description = v('jsonDescription');
-  if (v('jsonCategory')) o.category = v('jsonCategory');
-  if (v('jsonSubcategory')) o.subcategory = v('jsonSubcategory');
-  if (v('jsonThumb')) o.image = v('jsonThumb');
-  if (v('jsonImage')) o.image_large = v('jsonImage');
-  if (v('jsonImageLarge')) o.image_large_hd = v('jsonImageLarge');
-  if (v('jsonVideo')) o.video = v('jsonVideo');
-  if (v('jsonAudio')) o.audio = v('jsonAudio');
-  if (v('jsonTwitter')) o.twitter = v('jsonTwitter');
-  if (v('jsonWebsite')) o.website = v('jsonWebsite');
-  if (!Object.keys(o).length) { alert('Fill in at least one field.'); return; }
-  currentJsonString = JSON.stringify(o, null, 2);
-  var pre = document.getElementById('jsonPreview');
-  pre.textContent = currentJsonString; pre.classList.add('visible');
-  document.getElementById('btnCopyJson').classList.remove('hidden');
-  document.getElementById('btnMintJson').disabled = false;
-}
-function copyJSON() { if (currentJsonString) copyText(document.getElementById('btnCopyJson'), currentJsonString); }
-
-// ═══ MINT JSON TO ARWEAVE (via backend) ═══
-async function mintJSON() {
-  if (!currentJsonString) { alert('Generate JSON first.'); return; }
-  var btn = document.getElementById('btnMintJson'), prog = document.getElementById('jsonProgress'), fill = document.getElementById('jsonProgressFill'), status = document.getElementById('jsonStatus');
-  btn.disabled = true; prog.classList.add('active'); fill.style.width = '30%'; status.className = 'status-msg'; status.textContent = 'Uploading JSON to Arweave...';
-  try {
-    var blob = new File([currentJsonString], 'metadata.json', { type: 'application/json' });
-    var result = await uploadFile(blob);
-    fill.style.width = '100%';
-    jsonArioUrl = buildArioUrl(result.arweave_txid, 'json');
-    status.className = 'status-msg success'; status.textContent = 'JSON minted! Pay to reveal the link.';
-    // Show payment gate, hide mint button
+  // Upload JSON
+  status.textContent='Minting JSON to Arweave...';
+  try{
+    var blob=new File([finalJson],'metadata.json',{type:'application/json'});
+    var jsonResult=await uploadFile(blob);
+    jsonArioUrl=buildArioUrl(jsonResult.arweave_txid,'json');
+    done++;fill.style.width='100%';
+    status.className='status-msg success';status.textContent='All files minted! Pay to reveal links.';
     document.getElementById('paymentGate').classList.remove('hidden');
-    setTimeout(function(){ prog.classList.remove('active'); }, 2500);
-  } catch(e) {
-    fill.style.width = '0%'; prog.classList.remove('active');
-    status.className = 'status-msg error'; status.textContent = 'Error: ' + (e.message||e);
-    btn.disabled = false;
+    setTimeout(function(){prog.classList.remove('active');},2500);
+  }catch(e){
+    status.className='status-msg error';status.textContent='Error minting JSON: '+(e.message||e);
+    btn.disabled=false;
   }
 }
 
-// ═══ PAYMENT CHECK (mempool) ═══
-async function startPaymentCheck() {
-  var btn = document.getElementById('btnCheckPayment');
-  var status = document.getElementById('paymentStatus');
-  btn.disabled = true; status.className = 'status-msg'; status.textContent = 'Checking mempool for payment...';
-
-  var maxAttempts = 60; // 5 minutes at 5s intervals
-  for (var i = 0; i < maxAttempts; i++) {
-    try {
-      // Check mempool TXs
-      var resp = await fetch('https://mempool.space/api/address/' + PAYMENT_ADDRESS + '/txs/mempool');
-      if (resp.ok) {
-        var txs = await resp.json();
-        for (var t = 0; t < txs.length; t++) {
-          for (var v = 0; v < txs[t].vout.length; v++) {
-            if (txs[t].vout[v].scriptpubkey_address === PAYMENT_ADDRESS && txs[t].vout[v].value >= PAYMENT_SATS) {
-              // Payment found!
-              revealJson(txs[t].txid);
-              return;
-            }
-          }
-        }
-      }
-      // Also check confirmed
-      var resp2 = await fetch('https://mempool.space/api/address/' + PAYMENT_ADDRESS + '/txs');
-      if (resp2.ok) {
-        var txs2 = await resp2.json();
-        for (var t2 = 0; t2 < Math.min(txs2.length, 5); t2++) {
-          for (var v2 = 0; v2 < txs2[t2].vout.length; v2++) {
-            if (txs2[t2].vout[v2].scriptpubkey_address === PAYMENT_ADDRESS && txs2[t2].vout[v2].value >= PAYMENT_SATS) {
-              revealJson(txs2[t2].txid);
-              return;
-            }
-          }
-        }
-      }
-    } catch(e) { /* retry */ }
-    status.textContent = 'Waiting for payment... (' + (i+1) + '/' + maxAttempts + ')';
-    await new Promise(function(r) { setTimeout(r, 5000); });
+// ═══ PAYMENT CHECK ═══
+async function startPaymentCheck(){
+  var btn=document.getElementById('btnCheckPayment'),status=document.getElementById('paymentStatus');
+  btn.disabled=true;status.className='status-msg';status.textContent='Checking mempool...';
+  for(var i=0;i<60;i++){
+    try{
+      var r=await fetch('https://mempool.space/api/address/'+PAYMENT_ADDRESS+'/txs/mempool');
+      if(r.ok){var txs=await r.json();for(var t=0;t<txs.length;t++)for(var v=0;v<txs[t].vout.length;v++)if(txs[t].vout[v].scriptpubkey_address===PAYMENT_ADDRESS&&txs[t].vout[v].value>=PAYMENT_SATS){revealAll(txs[t].txid);return;}}
+      var r2=await fetch('https://mempool.space/api/address/'+PAYMENT_ADDRESS+'/txs');
+      if(r2.ok){var txs2=await r2.json();for(var t2=0;t2<Math.min(txs2.length,5);t2++)for(var v2=0;v2<txs2[t2].vout.length;v2++)if(txs2[t2].vout[v2].scriptpubkey_address===PAYMENT_ADDRESS&&txs2[t2].vout[v2].value>=PAYMENT_SATS){revealAll(txs2[t2].txid);return;}}
+    }catch(e){}
+    status.textContent='Waiting for payment... ('+(i+1)+'/60)';
+    await new Promise(function(r){setTimeout(r,5000);});
   }
-  status.className = 'status-msg error'; status.textContent = 'Payment not detected. Send 1,984 sats and try again.';
-  btn.disabled = false;
+  status.className='status-msg error';status.textContent='Payment not detected. Try again.';
+  btn.disabled=false;
 }
 
-function revealJson(txid) {
+function revealAll(txid){
   document.getElementById('paymentGate').classList.add('hidden');
-  document.getElementById('finalUrl').textContent = jsonArioUrl;
+  document.getElementById('finalUrl').textContent=jsonArioUrl;
+  // Show media URLs
+  var mediaHtml='';
+  var labels={thumb:'Thumbnail',image:'Main Image',video:'Video',audio:'Audio'};
+  for(var slot in mediaResults){
+    if(mediaResults[slot])mediaHtml+='<div class="fr-media-item">'+labels[slot]+': <span>'+mediaResults[slot].ario_url+'</span></div>';
+  }
+  document.getElementById('finalMedia').innerHTML=mediaHtml;
   document.getElementById('finalResult').classList.add('visible');
-  document.getElementById('paymentStatus').className = 'status-msg success';
-  document.getElementById('paymentStatus').textContent = 'Payment TX: ' + txid.slice(0,16) + '...';
+  document.getElementById('paymentStatus').className='status-msg success';
+  document.getElementById('paymentStatus').textContent='Payment TX: '+txid.slice(0,16)+'...';
 }
 
-function copyFinalUrl() {
-  var url = document.getElementById('finalUrl').textContent;
-  copyText(document.querySelector('#finalResult .btn'), url);
-}
+function copyFinalUrl(){copyText(document.querySelector('#finalResult .btn'),document.getElementById('finalUrl').textContent);}
 
 // ═══ UTIL ═══
-function copyText(btn, text) {
-  navigator.clipboard.writeText(text).then(function(){
-    if (btn) { btn.classList.add('copied'); var o = btn.textContent; btn.textContent = 'COPIED!'; setTimeout(function(){ btn.textContent = o; btn.classList.remove('copied'); }, 1500); }
-  });
-}
+function copyText(btn,text){navigator.clipboard.writeText(text).then(function(){if(btn){btn.classList.add('copied');var o=btn.textContent;btn.textContent='COPIED!';setTimeout(function(){btn.textContent=o;btn.classList.remove('copied');},1500);}});}
 </script>
 </body>
 </html>
