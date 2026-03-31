@@ -11,7 +11,7 @@ import { buildArioUrl, extForMimeType } from './arweave'
 import './styles.css'
 
 const PAYMENT_SATS = 1984
-const PAYMENT_ADDRESS = 'tb1qgjagt024jdcxd458wv2skkug9uf2ttmjfgjpxp'
+const PAYMENT_ADDRESS = 'bc1q0wv2d260yge8ravt7mqcjhvmu7wwp0de4yvt40'
 
 interface MintedFile {
   name: string
@@ -167,25 +167,8 @@ export function App() {
         <div className="header-rule-bottom" />
       </div>
 
-      {/* 1: WALLET */}
-      <Section num={1} title="Wallet Connection">
-        <div className="wallet-bar">
-          <div className="wallet-info">
-            <div className={`wallet-dot${address ? ' connected' : ''}`} />
-            <span className="wallet-addr">{address ? `${address.slice(0, 10)}...${address.slice(-6)}` : 'NOT CONNECTED'}</span>
-          </div>
-          <div style={{ display: 'flex', gap: 8 }}>
-            {!address ? (
-              <button className="btn btn-cyan" onClick={connectUnisat}>Connect UniSat</button>
-            ) : (
-              <button className="btn btn-disconnect" onClick={disconnect}>Disconnect</button>
-            )}
-          </div>
-        </div>
-      </Section>
-
-      {/* 2: UPLOAD MEDIA */}
-      <Section num={2} title="Mint Media to Arweave">
+      {/* 1: UPLOAD MEDIA */}
+      <Section num={1} title="Mint Media to Arweave">
         <div
           className="upload-zone"
           onDragOver={e => e.preventDefault()}
@@ -250,8 +233,8 @@ export function App() {
         )}
       </Section>
 
-      {/* 3: JSON BUILDER */}
-      <Section num={3} title="Build Asset JSON">
+      {/* 2: JSON BUILDER */}
+      <Section num={2} title="Build Asset JSON">
         <div className="form-grid">
           <Field label="Asset Name" value={fields.asset} onChange={v => updateField('asset', v)} placeholder="e.g. MYTOKEN" />
           <Field label="Artist / PGPSIG" value={fields.pgpsig} onChange={v => updateField('pgpsig', v)} placeholder="Artist name" optional />
@@ -275,9 +258,9 @@ export function App() {
         {jsonString && <pre className="json-preview visible">{jsonString}</pre>}
       </Section>
 
-      {/* 4: MINT JSON + PAY */}
+      {/* 3: MINT JSON + PAY */}
       {jsonString && (
-        <Section num={4} title="Mint JSON & Pay">
+        <Section num={3} title="Mint JSON & Pay">
           {!jsonMinted ? (
             <div>
               <p className="hint">First, mint your JSON to Arweave (free). Then pay 1984 sats to reveal the permanent link.</p>

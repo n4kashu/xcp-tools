@@ -57,7 +57,7 @@ export async function uploadToArweave(
 /** Check if a TX is in the mempool or confirmed */
 export async function checkPayment(txid: string, address: string, amountSats: number): Promise<boolean> {
   try {
-    const resp = await fetch(`https://mempool.space/testnet4/api/address/${address}/txs`)
+    const resp = await fetch(`https://mempool.space/api/address/${address}/txs`)
     if (!resp.ok) return false
     const txs = await resp.json()
     for (const tx of txs) {
@@ -87,7 +87,7 @@ export async function waitForPayment(
   while (Date.now() - start < maxWaitMs) {
     onStatus?.('Waiting for payment...')
     try {
-      const resp = await fetch(`https://mempool.space/testnet4/api/address/${address}/txs/mempool`)
+      const resp = await fetch(`https://mempool.space/api/address/${address}/txs/mempool`)
       if (resp.ok) {
         const txs = await resp.json()
         for (const tx of txs) {
@@ -99,7 +99,7 @@ export async function waitForPayment(
         }
       }
       // Also check confirmed
-      const resp2 = await fetch(`https://mempool.space/testnet4/api/address/${address}/txs`)
+      const resp2 = await fetch(`https://mempool.space/api/address/${address}/txs`)
       if (resp2.ok) {
         const txs2 = await resp2.json()
         for (const tx of txs2.slice(0, 5)) {
