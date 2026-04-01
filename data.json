@@ -1,0 +1,107 @@
+{
+  "claimed_txids": {
+    "398f7c3b0f0665fb112973cd8b98e3c1e6b0648f3f8a31683589ea19447515b2": {
+      "claimed_at": "2026-04-01T17:26:04.380Z",
+      "session_data": {
+        "json_url": "https://5y6ncwjcy33t4djjpmqlcyhorniwlwrsr27dfrgsuqylriklcnaa.ar.io/7jzRWSLG9z4NKXsgsWDui1Fl2jKOvjLE0qQwuKFLE0A?.json",
+        "final_json": {
+          "asset": "ygiuhlugou",
+          "image_large": "https://uvwco6ejt5jkno2ge4ldti3kubz5cybgenvonpldt32mr5puanma.ar.io/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g?.png"
+        },
+        "media": {
+          "image": {
+            "txid": "pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g",
+            "url": "https://arweave.net/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g",
+            "ario_url": "https://uvwco6ejt5jkno2ge4ldti3kubz5cybgenvonpldt32mr5puanma.ar.io/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g?.png",
+            "name": "image_2026-03-25_18-43-36.png"
+          }
+        }
+      }
+    },
+    "263642ca5b689e3fa44adbaa9861e81e5bc98f73878a2708682be82d76e6e2b8": {
+      "claimed_at": "2026-04-01T17:26:56.067Z",
+      "session_data": {
+        "json_url": "https://pqz5fby4q54lu4jt53sj5lsqpznzoypkyme6eqvoej4zuwbvpxya.ar.io/fDPShxyHeLpxM-7knq5QfluXYerDCeJCriJ5mlg1ffA?.json",
+        "final_json": {
+          "image_large": "https://ydhbdl3tlbauohuiqrxyqslzmyzsxhkf3mvstvvsg6itw77ukwva.ar.io/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao?.png"
+        },
+        "media": {
+          "image": {
+            "txid": "wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao",
+            "url": "https://arweave.net/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao",
+            "ario_url": "https://ydhbdl3tlbauohuiqrxyqslzmyzsxhkf3mvstvvsg6itw77ukwva.ar.io/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao?.png",
+            "name": "PUTIN STAMP.png"
+          }
+        }
+      }
+    },
+    "ba85180616677936c4bf6034a33d5c161d35b401a1793bc21f80be1d1761711a": {
+      "claimed_at": "2026-04-01T17:27:29.635Z",
+      "session_data": {
+        "json_url": "https://emh7yao6ahz4iarfdpy7i3a6utgg7yyb5zumz74xb76qw537pp3a.ar.io/Iw_8Ad4B88QCJRvx9GwepMxv4wHuaMz_lw_9C3d_e_Y?.json",
+        "final_json": {
+          "image_large": "https://2lqmphv2cclkikywswmdfwarq5vuyrfja7dkqpbak7owbk3qv24q.ar.io/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk?.png"
+        },
+        "media": {
+          "image": {
+            "txid": "0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk",
+            "url": "https://arweave.net/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk",
+            "ario_url": "https://2lqmphv2cclkikywswmdfwarq5vuyrfja7dkqpbak7owbk3qv24q.ar.io/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk?.png",
+            "name": "PUTIN STAMP.png"
+          }
+        }
+      }
+    }
+  },
+  "sessions": [
+    {
+      "txid": "398f7c3b0f0665fb112973cd8b98e3c1e6b0648f3f8a31683589ea19447515b2",
+      "claimed_at": "2026-04-01T17:26:04.380Z",
+      "json_url": "https://5y6ncwjcy33t4djjpmqlcyhorniwlwrsr27dfrgsuqylriklcnaa.ar.io/7jzRWSLG9z4NKXsgsWDui1Fl2jKOvjLE0qQwuKFLE0A?.json",
+      "final_json": {
+        "asset": "ygiuhlugou",
+        "image_large": "https://uvwco6ejt5jkno2ge4ldti3kubz5cybgenvonpldt32mr5puanma.ar.io/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g?.png"
+      },
+      "media": {
+        "image": {
+          "txid": "pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g",
+          "url": "https://arweave.net/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g",
+          "ario_url": "https://uvwco6ejt5jkno2ge4ldti3kubz5cybgenvonpldt32mr5puanma.ar.io/pWwneImfUqa7RicWOaNqoHPRYCYjaua9Y570yPX0A1g?.png",
+          "name": "image_2026-03-25_18-43-36.png"
+        }
+      }
+    },
+    {
+      "txid": "263642ca5b689e3fa44adbaa9861e81e5bc98f73878a2708682be82d76e6e2b8",
+      "claimed_at": "2026-04-01T17:26:56.067Z",
+      "json_url": "https://pqz5fby4q54lu4jt53sj5lsqpznzoypkyme6eqvoej4zuwbvpxya.ar.io/fDPShxyHeLpxM-7knq5QfluXYerDCeJCriJ5mlg1ffA?.json",
+      "final_json": {
+        "image_large": "https://ydhbdl3tlbauohuiqrxyqslzmyzsxhkf3mvstvvsg6itw77ukwva.ar.io/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao?.png"
+      },
+      "media": {
+        "image": {
+          "txid": "wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao",
+          "url": "https://arweave.net/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao",
+          "ario_url": "https://ydhbdl3tlbauohuiqrxyqslzmyzsxhkf3mvstvvsg6itw77ukwva.ar.io/wM4Rr3NYQUceiIRviEl5ZjMrnUXbKynWsjeRO3_0Vao?.png",
+          "name": "PUTIN STAMP.png"
+        }
+      }
+    },
+    {
+      "txid": "ba85180616677936c4bf6034a33d5c161d35b401a1793bc21f80be1d1761711a",
+      "claimed_at": "2026-04-01T17:27:29.635Z",
+      "json_url": "https://emh7yao6ahz4iarfdpy7i3a6utgg7yyb5zumz74xb76qw537pp3a.ar.io/Iw_8Ad4B88QCJRvx9GwepMxv4wHuaMz_lw_9C3d_e_Y?.json",
+      "final_json": {
+        "image_large": "https://2lqmphv2cclkikywswmdfwarq5vuyrfja7dkqpbak7owbk3qv24q.ar.io/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk?.png"
+      },
+      "media": {
+        "image": {
+          "txid": "0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk",
+          "url": "https://arweave.net/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk",
+          "ario_url": "https://2lqmphv2cclkikywswmdfwarq5vuyrfja7dkqpbak7owbk3qv24q.ar.io/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk?.png",
+          "name": "PUTIN STAMP.png"
+        }
+      }
+    }
+  ]
+}

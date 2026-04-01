@@ -114,9 +114,9 @@
     <div class="section-label"><span class="num">1</span> Select Media Files</div>
     <div class="upload-zones-grid">
       <div class="upload-zone" id="zoneThumb" onclick="document.getElementById('inputThumb').click()">
-        <input type="file" id="inputThumb" accept="image/png,image/jpg,image/jpeg,image/gif">
+        <input type="file" id="inputThumb" accept="image/png">
         <div class="icon">🖼️</div><div class="label"><strong>Thumbnail</strong></div>
-        <div class="formats">48&times;48 &middot; PNG / JPG / GIF</div>
+        <div class="formats">48&times;48 PNG only</div>
         <div class="zone-file" id="zoneThumbFile"></div>
       </div>
       <div class="upload-zone" id="zoneImage" onclick="document.getElementById('inputImage').click()">
@@ -173,8 +173,11 @@
         <div class="payment-label" style="margin-top:12px;">To address (mainnet BTC):</div>
         <div class="payment-addr" onclick="copyText(this,'bc1q0wv2d260yge8ravt7mqcjhvmu7wwp0de4yvt40')">bc1q0wv2d260yge8ravt7mqcjhvmu7wwp0de4yvt40</div>
       </div>
+      <div style="margin-top:16px;">
+        <div class="field full"><label>Payment TXID</label><input type="text" id="paymentTxid" placeholder="Paste your payment transaction ID here" style="font-size:12px;"></div>
+      </div>
       <div class="actions" style="justify-content:center;">
-        <button class="btn btn-green" id="btnCheckPayment" onclick="startPaymentCheck()">&#x1F4B0; I've Sent Payment — Check</button>
+        <button class="btn btn-green" id="btnCheckPayment" onclick="startPaymentCheck()">&#x1F4B0; Verify Payment</button>
       </div>
       <div class="status-msg" id="paymentStatus"></div>
     </div>
@@ -230,12 +233,33 @@ document.addEventListener('DOMContentLoaded',function(){
   setupZone('zoneAudio','inputAudio','zoneAudioFile','audio');
 });
 
+function validateThumb(file){
+  return new Promise(function(resolve,reject){
+    if(file.type!=='image/png'){reject('Thumbnail must be a PNG file');return;}
+    var img=new Image();
+    img.onload=function(){
+      URL.revokeObjectURL(img.src);
+      if(img.width!==48||img.height!==48)reject('Thumbnail must be exactly 48\u00d748 pixels (got '+img.width+'\u00d7'+img.height+')');
+      else resolve();
+    };
+    img.onerror=function(){reject('Failed to read image');};
+    img.src=URL.createObjectURL(file);
+  });
+}
+
 function setupZone(zoneId,inputId,fileDisplayId,slot){
   var zone=document.getElementById(zoneId),input=document.getElementById(inputId),display=document.getElementById(fileDisplayId);
-  input.addEventListener('change',function(e){var f=e.target.files[0];if(!f)return;zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();e.target.value='';});
+  function acceptFile(f){
+    if(slot==='thumb'){
+      validateThumb(f).then(function(){zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();}).catch(function(err){alert(err);});
+    }else{
+      zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();
+    }
+  }
+  input.addEventListener('change',function(e){var f=e.target.files[0];if(!f)return;acceptFile(f);e.target.value='';});
   zone.addEventListener('dragover',function(e){e.preventDefault();e.stopPropagation();zone.classList.add('dragover');});
   zone.addEventListener('dragleave',function(e){e.stopPropagation();zone.classList.remove('dragover');});
-  zone.addEventListener('drop',function(e){e.preventDefault();e.stopPropagation();zone.classList.remove('dragover');var f=e.dataTransfer.files[0];if(!f)return;zoneFiles[slot]=f;renderZoneFile(display,f,slot);updateMintBtn();});
+  zone.addEventListener('drop',function(e){e.preventDefault();e.stopPropagation();zone.classList.remove('dragover');var f=e.dataTransfer.files[0];if(!f)return;acceptFile(f);});
   zone.addEventListener('click',function(e){if(e.target.classList.contains('zone-remove'))e.stopPropagation();});
 }
 
@@ -359,22 +383,58 @@ async function mintAll(){
   }
 }
 
-// ═══ PAYMENT CHECK ═══
+// ═══ PAYMENT VERIFICATION (server-side) ═══
 async function startPaymentCheck(){
+  var txidInput=document.getElementById('paymentTxid');
+  var txid=txidInput.value.trim();
   var btn=document.getElementById('btnCheckPayment'),status=document.getElementById('paymentStatus');
-  btn.disabled=true;status.className='status-msg';status.textContent='Checking mempool...';
-  for(var i=0;i<60;i++){
-    try{
-      var r=await fetch('https://mempool.space/api/address/'+PAYMENT_ADDRESS+'/txs/mempool');
-      if(r.ok){var txs=await r.json();for(var t=0;t<txs.length;t++)for(var v=0;v<txs[t].vout.length;v++)if(txs[t].vout[v].scriptpubkey_address===PAYMENT_ADDRESS&&txs[t].vout[v].value>=PAYMENT_SATS){revealAll(txs[t].txid);return;}}
-      var r2=await fetch('https://mempool.space/api/address/'+PAYMENT_ADDRESS+'/txs');
-      if(r2.ok){var txs2=await r2.json();for(var t2=0;t2<Math.min(txs2.length,5);t2++)for(var v2=0;v2<txs2[t2].vout.length;v2++)if(txs2[t2].vout[v2].scriptpubkey_address===PAYMENT_ADDRESS&&txs2[t2].vout[v2].value>=PAYMENT_SATS){revealAll(txs2[t2].txid);return;}}
-    }catch(e){}
-    status.textContent='Waiting for payment... ('+(i+1)+'/60)';
-    await new Promise(function(r){setTimeout(r,5000);});
+
+  if(!txid||txid.length!==64||!/^[a-fA-F0-9]+$/.test(txid)){
+    status.className='status-msg error';status.textContent='Enter a valid 64-character TXID.';
+    return;
   }
-  status.className='status-msg error';status.textContent='Payment not detected. Try again.';
-  btn.disabled=false;
+
+  btn.disabled=true;status.className='status-msg';status.textContent='Verifying payment...';
+
+  try{
+    // Build session data to store server-side
+    var sessionData={
+      json_url:jsonArioUrl,
+      final_json:null,
+      media:{},
+    };
+    // Rebuild the final JSON for storage
+    var o={},v=function(id){return document.getElementById(id).value.trim();};
+    if(v('jsonAssetName'))o.asset=v('jsonAssetName');
+    if(v('jsonPgpsig'))o.pgpsig=v('jsonPgpsig');
+    if(v('jsonDescription'))o.description=v('jsonDescription');
+    if(v('jsonCategory'))o.category=v('jsonCategory');
+    if(v('jsonSubcategory'))o.subcategory=v('jsonSubcategory');
+    if(mediaResults.thumb){o.image=mediaResults.thumb.ario_url;sessionData.media.thumb=mediaResults.thumb;}
+    if(mediaResults.image){o.image_large=mediaResults.image.ario_url;sessionData.media.image=mediaResults.image;}
+    if(mediaResults.video){o.video=mediaResults.video.ario_url;sessionData.media.video=mediaResults.video;}
+    if(mediaResults.audio){o.audio=mediaResults.audio.ario_url;sessionData.media.audio=mediaResults.audio;}
+    if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
+    if(v('jsonWebsite'))o.website=v('jsonWebsite');
+    sessionData.final_json=o;
+
+    var resp=await fetch('/verify-payment',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({txid:txid,session_data:sessionData}),
+    });
+    var result=await resp.json();
+
+    if(!resp.ok){
+      status.className='status-msg error';status.textContent=result.error||'Verification failed';
+      btn.disabled=false;return;
+    }
+
+    revealAll(txid);
+  }catch(e){
+    status.className='status-msg error';status.textContent='Error: '+(e.message||e);
+    btn.disabled=false;
+  }
 }
 
 function revealAll(txid){
