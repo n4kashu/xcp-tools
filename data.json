@@ -51,6 +51,24 @@
           }
         }
       }
+    },
+    "1e7ce95884daf8cd99ff6b033222948ea06602a991310ecd3c5a5472fde4ad4b": {
+      "claimed_at": "2026-04-04T15:18:56.609Z",
+      "session_data": {
+        "json_url": "https://465qcxuq4d7gcjauwkuau25bh34r7ykx3kbvaqgwzap2q6wt2uta.ar.io/57sBXpDg_mEkFLKoCmuhPvkf4Vfag1BA1sgfqHrT1SY?.json",
+        "final_json": {
+          "asset": "jnhhbhj",
+          "image_large": "https://hqecrq2lhm6et4ioogqz4kkvnon5y4nsh4meamv4kvn7thgz4u4q.ar.io/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk?.png"
+        },
+        "media": {
+          "image": {
+            "txid": "PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk",
+            "url": "https://arweave.net/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk",
+            "ario_url": "https://hqecrq2lhm6et4ioogqz4kkvnon5y4nsh4meamv4kvn7thgz4u4q.ar.io/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk?.png",
+            "name": "BitcoinStamp (1).png"
+          }
+        }
+      }
     }
   },
   "sessions": [
@@ -100,6 +118,23 @@
           "url": "https://arweave.net/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk",
           "ario_url": "https://2lqmphv2cclkikywswmdfwarq5vuyrfja7dkqpbak7owbk3qv24q.ar.io/0uDHnroQlqQrFpWYMtgRh2tMRKkHxqg8IFfdYKtwrrk?.png",
           "name": "PUTIN STAMP.png"
+        }
+      }
+    },
+    {
+      "txid": "1e7ce95884daf8cd99ff6b033222948ea06602a991310ecd3c5a5472fde4ad4b",
+      "claimed_at": "2026-04-04T15:18:56.609Z",
+      "json_url": "https://465qcxuq4d7gcjauwkuau25bh34r7ykx3kbvaqgwzap2q6wt2uta.ar.io/57sBXpDg_mEkFLKoCmuhPvkf4Vfag1BA1sgfqHrT1SY?.json",
+      "final_json": {
+        "asset": "jnhhbhj",
+        "image_large": "https://hqecrq2lhm6et4ioogqz4kkvnon5y4nsh4meamv4kvn7thgz4u4q.ar.io/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk?.png"
+      },
+      "media": {
+        "image": {
+          "txid": "PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk",
+          "url": "https://arweave.net/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk",
+          "ario_url": "https://hqecrq2lhm6et4ioogqz4kkvnon5y4nsh4meamv4kvn7thgz4u4q.ar.io/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk?.png",
+          "name": "BitcoinStamp (1).png"
         }
       }
     }

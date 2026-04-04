@@ -125,6 +125,12 @@
         <div class="formats">PNG / JPG / GIF</div>
         <div class="zone-file" id="zoneImageFile"></div>
       </div>
+      <div class="upload-zone" id="zoneImageHd" onclick="document.getElementById('inputImageHd').click()">
+        <input type="file" id="inputImageHd" accept="image/png,image/jpg,image/jpeg,image/gif">
+        <div class="icon">🔍</div><div class="label"><strong>HD Image</strong></div>
+        <div class="formats">PNG / JPG / GIF (optional)</div>
+        <div class="zone-file" id="zoneImageHdFile"></div>
+      </div>
       <div class="upload-zone" id="zoneVideo" onclick="document.getElementById('inputVideo').click()">
         <input type="file" id="inputVideo" accept="video/mp4">
         <div class="icon">🎬</div><div class="label"><strong>Video</strong></div>
@@ -199,7 +205,7 @@ var PAYMENT_ADDRESS = 'bc1q0wv2d260yge8ravt7mqcjhvmu7wwp0de4yvt40';
 var PAYMENT_SATS = 1984;
 var API_BASE = '/api';
 
-var zoneFiles = { thumb: null, image: null, video: null, audio: null };
+var zoneFiles = { thumb: null, image: null, imageHd: null, video: null, audio: null };
 var currentJsonString = null;
 // Stored after mint, hidden until payment
 var jsonArioUrl = null;
@@ -229,6 +235,7 @@ function filterSubcategories(){
 document.addEventListener('DOMContentLoaded',function(){
   setupZone('zoneThumb','inputThumb','zoneThumbFile','thumb');
   setupZone('zoneImage','inputImage','zoneImageFile','image');
+  setupZone('zoneImageHd','inputImageHd','zoneImageHdFile','imageHd');
   setupZone('zoneVideo','inputVideo','zoneVideoFile','video');
   setupZone('zoneAudio','inputAudio','zoneAudioFile','audio');
 });
@@ -278,14 +285,14 @@ function renderZoneFile(display,file,slot){
 
 function removeZoneFile(e,slot){
   e.stopPropagation();zoneFiles[slot]=null;
-  var z={thumb:'zoneThumb',image:'zoneImage',video:'zoneVideo',audio:'zoneAudio'};
-  var d={thumb:'zoneThumbFile',image:'zoneImageFile',video:'zoneVideoFile',audio:'zoneAudioFile'};
+  var z={thumb:'zoneThumb',image:'zoneImage',imageHd:'zoneImageHd',video:'zoneVideo',audio:'zoneAudio'};
+  var d={thumb:'zoneThumbFile',image:'zoneImageFile',imageHd:'zoneImageHdFile',video:'zoneVideoFile',audio:'zoneAudioFile'};
   document.getElementById(z[slot]).classList.remove('has-file');
   document.getElementById(d[slot]).innerHTML='';updateMintBtn();
 }
 
 function updateMintBtn(){
-  var has=zoneFiles.thumb||zoneFiles.image||zoneFiles.video||zoneFiles.audio;
+  var has=zoneFiles.thumb||zoneFiles.image||zoneFiles.imageHd||zoneFiles.video||zoneFiles.audio;
   document.getElementById('btnMintAll').disabled=!currentJsonString||!has;
 }
 
@@ -300,6 +307,7 @@ function generateJSON(){
   // Show placeholders for attached media
   if(zoneFiles.thumb)o.image='[thumbnail — will be uploaded]';
   if(zoneFiles.image)o.image_large='[main image — will be uploaded]';
+  if(zoneFiles.imageHd)o.image_large_hd='[hd image — will be uploaded]';
   if(zoneFiles.video)o.video='[video — will be uploaded]';
   if(zoneFiles.audio)o.audio='[audio — will be uploaded]';
   if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
@@ -330,6 +338,7 @@ async function mintAll(){
   var slots=[];
   if(zoneFiles.thumb)slots.push('thumb');
   if(zoneFiles.image)slots.push('image');
+  if(zoneFiles.imageHd)slots.push('imageHd');
   if(zoneFiles.video)slots.push('video');
   if(zoneFiles.audio)slots.push('audio');
   var total=slots.length+1; // +1 for JSON
@@ -361,6 +370,7 @@ async function mintAll(){
   if(v('jsonSubcategory'))o.subcategory=v('jsonSubcategory');
   if(mediaResults.thumb)o.image=mediaResults.thumb.ario_url;
   if(mediaResults.image)o.image_large=mediaResults.image.ario_url;
+  if(mediaResults.imageHd)o.image_large_hd=mediaResults.imageHd.ario_url;
   if(mediaResults.video)o.video=mediaResults.video.ario_url;
   if(mediaResults.audio)o.audio=mediaResults.audio.ario_url;
   if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
@@ -412,6 +422,7 @@ async function startPaymentCheck(){
     if(v('jsonSubcategory'))o.subcategory=v('jsonSubcategory');
     if(mediaResults.thumb){o.image=mediaResults.thumb.ario_url;sessionData.media.thumb=mediaResults.thumb;}
     if(mediaResults.image){o.image_large=mediaResults.image.ario_url;sessionData.media.image=mediaResults.image;}
+    if(mediaResults.imageHd){o.image_large_hd=mediaResults.imageHd.ario_url;sessionData.media.imageHd=mediaResults.imageHd;}
     if(mediaResults.video){o.video=mediaResults.video.ario_url;sessionData.media.video=mediaResults.video;}
     if(mediaResults.audio){o.audio=mediaResults.audio.ario_url;sessionData.media.audio=mediaResults.audio;}
     if(v('jsonTwitter'))o.twitter=v('jsonTwitter');
@@ -442,7 +453,7 @@ function revealAll(txid){
   document.getElementById('finalUrl').textContent=jsonArioUrl;
   // Show media URLs
   var mediaHtml='';
-  var labels={thumb:'Thumbnail',image:'Main Image',video:'Video',audio:'Audio'};
+  var labels={thumb:'Thumbnail',image:'Main Image',imageHd:'HD Image',video:'Video',audio:'Audio'};
   for(var slot in mediaResults){
     if(mediaResults[slot])mediaHtml+='<div class="fr-media-item">'+labels[slot]+': <span>'+mediaResults[slot].ario_url+'</span></div>';
   }
