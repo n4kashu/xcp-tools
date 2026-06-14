@@ -159,7 +159,8 @@ export function App() {
   }, [])
 
   return (
-    <div className="container">
+    <>
+      <div className="container">
       <div className="header">
         <div className="header-rule" />
         <h1>ARWEAVE MINT & <span className="accent">XCP JSON</span> BUILDER</h1>
@@ -306,7 +307,8 @@ export function App() {
           )}
         </Section>
       )}
-    </div>
+      </div>
+    </>
   )
 }
 

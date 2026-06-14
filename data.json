@@ -69,6 +69,914 @@
           }
         }
       }
+    },
+    "8bff2fa6e2cf3ba3829faabc541276fbb516e0e1377927a93631a8249a0acca2": {
+      "claimed_at": "2026-04-04T18:41:56.459Z",
+      "session_data": {
+        "json_url": "https://xefzfowvqiewlkscznngiohuuqpqsxkoi5y2z2fq6dnppj5bg3aa.ar.io/uQuSutWCCWWqQstaZDj0pB8JXU5HcazosPDa96ehNsA?.json",
+        "final_json": {
+          "asset": "ORVILLE",
+          "pgpsig": "HNFT Pepe",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://qddvzaurhg6nf3z5fshjjf7h2xcljct26xz3j545fwqyx6knqojq.ar.io/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M?.png",
+          "image_large": "https://mllbbkhjoohat32k6djrd4sxolilogslhckqcd6zewwqfipl53ka.ar.io/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ?.png",
+          "twitter": "https://x.com/HnftPepe",
+          "website": "https://fauxbitcorn.com/"
+        },
+        "media": {
+          "thumb": {
+            "txid": "gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M",
+            "url": "https://arweave.net/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M",
+            "ario_url": "https://qddvzaurhg6nf3z5fshjjf7h2xcljct26xz3j545fwqyx6knqojq.ar.io/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M?.png",
+            "name": "Thumb.png"
+          },
+          "image": {
+            "txid": "YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ",
+            "url": "https://arweave.net/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ",
+            "ario_url": "https://mllbbkhjoohat32k6djrd4sxolilogslhckqcd6zewwqfipl53ka.ar.io/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ?.png",
+            "name": "ORVILLE.png"
+          }
+        }
+      }
+    },
+    "a049e9cc9e8d5e3777fbb667978769d1d76d3c79c94642085ea61af1ef3ca2fc": {
+      "claimed_at": "2026-04-05T20:17:49.841Z",
+      "session_data": {
+        "json_url": "https://dcpqz4uwkqv4lyfjezjjlv3htdv3avlpsv4jugfxk7pggqynhjqq.ar.io/GJ8M8pZUK8XgqSZSlddnmOuwVW-VeJoYt1feY0MNOmE?.json",
+        "final_json": {
+          "asset": "PEZMARLEY",
+          "pgpsig": "@S1MONS",
+          "description": "Bob Marley Pez Dispenser",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://5qtudxur34tuj3iaqb5j7hc4ruvviuaqiym7rgwhgvewmql5dxoa.ar.io/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw?.png",
+          "image_large": "https://yyad37nrwtq2kwdolgibyr5pph6rfqlbpd2fea3azq3lttiwgika.ar.io/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ?.jpg",
+          "twitter": "@S1MONS"
+        },
+        "media": {
+          "thumb": {
+            "txid": "7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw",
+            "url": "https://arweave.net/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw",
+            "ario_url": "https://5qtudxur34tuj3iaqb5j7hc4ruvviuaqiym7rgwhgvewmql5dxoa.ar.io/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw?.png",
+            "name": "IMG_6691.png"
+          },
+          "image": {
+            "txid": "xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ",
+            "url": "https://arweave.net/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ",
+            "ario_url": "https://yyad37nrwtq2kwdolgibyr5pph6rfqlbpd2fea3azq3lttiwgika.ar.io/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ?.jpg",
+            "name": "IMG_6691.jpeg"
+          }
+        }
+      }
+    },
+    "c44bc80f9c3df09c956803596c0768c9e7d6f1d54b27205857738e026e1cf808": {
+      "claimed_at": "2026-04-10T19:13:01.339Z",
+      "session_data": {
+        "json_url": "https://kjxcjv36ffv7c2bctsnvemnaujmmspeeamp2n6n2yhjrys4ftkga.ar.io/Um4k134pa_FoIpybUjGgoljJPIQDH6b5usHTHEuFmow?.json",
+        "final_json": {
+          "asset": "RAREMEMEDICI",
+          "pgpsig": "Memeticx",
+          "description": "Patron Saint of Memetics.",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://bjyombgx374y6udb2557ajwoayznypqgcpupady2fvcarmyj43vq.ar.io/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us?.png",
+          "image_large": "https://2m5e57fntdf5wymodotbyx4a3bykg5lhvwnamxrgrmbvirsjuwvq.ar.io/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas?.gif",
+          "twitter": "https://x.com/Memeticx",
+          "website": "https://pepe.wtf/artists/Memeticx"
+        },
+        "media": {
+          "thumb": {
+            "txid": "CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us",
+            "url": "https://arweave.net/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us",
+            "ario_url": "https://bjyombgx374y6udb2557ajwoayznypqgcpupady2fvcarmyj43vq.ar.io/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us?.png",
+            "name": "miniChrest (1).png"
+          },
+          "image": {
+            "txid": "0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas",
+            "url": "https://arweave.net/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas",
+            "ario_url": "https://2m5e57fntdf5wymodotbyx4a3bykg5lhvwnamxrgrmbvirsjuwvq.ar.io/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas?.gif",
+            "name": "RAREMEMEDICI.gif"
+          }
+        }
+      }
+    },
+    "aa1b59a42ebabdbfa1c70f4b7cda8e237761afdf6a152ab945c092434851f684": {
+      "claimed_at": "2026-04-11T20:29:28.226Z",
+      "session_data": {
+        "json_url": "https://6py7lfahubqzne7sjgyp3ranjqx5otcfqxnvhggnsuxol3vjxana.ar.io/8_H1lAegYZaT8kmw_cQNTC_XTEWF21OYzZUu5e6puBo?.json",
+        "final_json": {
+          "asset": "BLADEPEPE",
+          "pgpsig": "Memeticx",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://shs6gfoxaznmi3ksfpvlpglr5cr2blxxiwgngc6ud2foats266ha.ar.io/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944?.png",
+          "image_large": "https://j5eiirdf7h5bxtzxithkdtknuf42bt7zzcrkkclp6xxml2ci7ryq.ar.io/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE?.png",
+          "twitter": "https://x.com/Memeticx",
+          "website": "https://pepe.wtf/artists/Memeticx"
+        },
+        "media": {
+          "thumb": {
+            "txid": "keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944",
+            "url": "https://arweave.net/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944",
+            "ario_url": "https://shs6gfoxaznmi3ksfpvlpglr5cr2blxxiwgngc6ud2foats266ha.ar.io/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944?.png",
+            "name": "Blade48x48.png"
+          },
+          "image": {
+            "txid": "T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE",
+            "url": "https://arweave.net/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE",
+            "ario_url": "https://j5eiirdf7h5bxtzxithkdtknuf42bt7zzcrkkclp6xxml2ci7ryq.ar.io/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE?.png",
+            "name": "BLADEPEPE.png"
+          }
+        }
+      }
+    },
+    "0db379d883afe8bc3fab96b020a52ac45b40cbbf91f78e332c31ec5766eabfbf": {
+      "claimed_at": "2026-04-11T21:16:10.604Z",
+      "session_data": {
+        "json_url": "https://pnaoo5vlxajqqux42m2fqzb5aotuobkgei6rre7vctut4q7555cq.ar.io/e0Dndqu4EwhS_NM0WGQ9A6dHBUYiPRiT9RTpPkP970U?.json",
+        "final_json": {
+          "asset": "BLADEPEPE",
+          "pgpsig": "Memeticx",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://aln5ivdio2gj3kf5oggm2jtfs5rr4c4bdqblydj4hdu6k4ev2uwq.ar.io/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0?.png",
+          "image_large": "https://t322wqcjx5rayi66v32r2fovvpsncdcnd4qkdd4acgm4ct5gwhea.ar.io/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg?.png",
+          "twitter": "https://x.com/Memeticx",
+          "website": "https://pepe.wtf/artists/Memeticx"
+        },
+        "media": {
+          "thumb": {
+            "txid": "AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0",
+            "url": "https://arweave.net/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0",
+            "ario_url": "https://aln5ivdio2gj3kf5oggm2jtfs5rr4c4bdqblydj4hdu6k4ev2uwq.ar.io/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0?.png",
+            "name": "Blade48x48.png"
+          },
+          "image": {
+            "txid": "nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg",
+            "url": "https://arweave.net/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg",
+            "ario_url": "https://t322wqcjx5rayi66v32r2fovvpsncdcnd4qkdd4acgm4ct5gwhea.ar.io/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg?.png",
+            "name": "BLADEfinal.png"
+          }
+        }
+      }
+    },
+    "58c6c2372e14bd122a656bb10d2d80b075ac4b03a41daa9c20e9fd0c0a961c01": {
+      "claimed_at": "2026-04-11T22:37:32.698Z",
+      "session_data": {
+        "json_url": "https://hrv32bhh5lh2i2tcpf23mugjnyhdmhkmbu7xqwi2ngbzgnofk5dq.ar.io/PGu9BOfqz6RqYnl1tlDJbg42HUwNP3hZGmmDkzXFV0c?.json",
+        "final_json": {
+          "asset": "GMABSURDISM",
+          "pgpsig": "Memeticx",
+          "description": "This piece was inspired by \"The Myth of Sisyphus\" by Daniel Perkins which is often associated with Existentialist Philosophy and the Absurdism movement.  The Pepe community, and the crypto artist community at large, say GM to this environment each and every day.  GM!",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://5ottapwowkqaailti3rjpxcmxwgelapjwemjsyg2otch3uefy3zq.ar.io/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM?.png",
+          "image_large": "https://zeyecf6lc3vqyu2vpjgjlgum6atlrw7kz4kabzhxjixyf7orsvsa.ar.io/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ?.png",
+          "twitter": "https://x.com/Memeticx",
+          "website": "https://pepe.wtf/artists/Memeticx"
+        },
+        "media": {
+          "thumb": {
+            "txid": "66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM",
+            "url": "https://arweave.net/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM",
+            "ario_url": "https://5ottapwowkqaailti3rjpxcmxwgelapjwemjsyg2otch3uefy3zq.ar.io/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM?.png",
+            "name": "GM48x48.png"
+          },
+          "image": {
+            "txid": "yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ",
+            "url": "https://arweave.net/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ",
+            "ario_url": "https://zeyecf6lc3vqyu2vpjgjlgum6atlrw7kz4kabzhxjixyf7orsvsa.ar.io/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ?.png",
+            "name": "GMABSURDISM.png"
+          }
+        }
+      }
+    },
+    "21ce2e2613658193713a3c6613c3b71040eaaddaa9d960cfe238c3b8d701e11e": {
+      "claimed_at": "2026-04-12T17:23:32.058Z",
+      "session_data": {
+        "json_url": "https://7leeyj5vnnxxlf4lyafsunhoifwhgiaqickkylct6fofceb3ektq.ar.io/-shMJ7Vrb3WXi8ALKjTuQWxzIBBAlKwsU_FcURA7Iqc?.json",
+        "final_json": {
+          "asset": "GMABSURDISM",
+          "pgpsig": "Memeticx",
+          "description": "This piece was inspired by \"The Myth of Sisyphus\" by Darrel Perkins which is often associated with the Absurdism movement and Albert Camus. The Pepe community, and the crypto artist community at large, say GM to this environment each and every day. GM!",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://lduok23kyjoqpjsfvkuhdrxwga3knm36drxg4yia57ar76wnaroa.ar.io/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw?.png",
+          "image_large": "https://nq7pvgswvgbkvptk3qnrjb4kwgo3vhqo6g35nbzfr775gn4f2f7q.ar.io/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8?.png",
+          "twitter": "https://x.com/Memeticx",
+          "website": "https://pepe.wtf/artists/Memeticx"
+        },
+        "media": {
+          "thumb": {
+            "txid": "WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw",
+            "url": "https://arweave.net/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw",
+            "ario_url": "https://lduok23kyjoqpjsfvkuhdrxwga3knm36drxg4yia57ar76wnaroa.ar.io/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw?.png",
+            "name": "GM48x48.png"
+          },
+          "image": {
+            "txid": "bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8",
+            "url": "https://arweave.net/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8",
+            "ario_url": "https://nq7pvgswvgbkvptk3qnrjb4kwgo3vhqo6g35nbzfr775gn4f2f7q.ar.io/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8?.png",
+            "name": "GMABSURDISM.png"
+          }
+        }
+      }
+    },
+    "07280b3db49a95bca082c410d2387d92220e38d8e8f27d016df308e49a5a66f3": {
+      "claimed_at": "2026-04-16T11:39:42.967Z",
+      "session_data": {
+        "json_url": "https://k72ryoku7p74nzkp2drb7dlybfwkdlnnww6k22jzxyo6kdg5cmmq.ar.io/V_UcOVT7_8blT9DiH414CWyhra21vK1pOb4d5QzdExk?.json",
+        "final_json": {
+          "asset": "NAKABANKSY",
+          "pgpsig": "@S1MONS",
+          "description": "Nakamoto by Banksy",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://h3dkt563qtt5zjalamp4sjlfccmxhvgbj7borcpgsjh4p5wcjnkq.ar.io/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U?.png",
+          "image_large": "https://oulkwdnjwqdmvecrp7tcypsc3kojhkvo34gs6qzbxq5pi6o57ujq.ar.io/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM?.png",
+          "twitter": "Https//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U",
+            "url": "https://arweave.net/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U",
+            "ario_url": "https://h3dkt563qtt5zjalamp4sjlfccmxhvgbj7borcpgsjh4p5wcjnkq.ar.io/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U?.png",
+            "name": "webResult 13.png"
+          },
+          "image": {
+            "txid": "dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM",
+            "url": "https://arweave.net/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM",
+            "ario_url": "https://oulkwdnjwqdmvecrp7tcypsc3kojhkvo34gs6qzbxq5pi6o57ujq.ar.io/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM?.png",
+            "name": "webResult.png"
+          }
+        }
+      }
+    },
+    "c8b3a902092e6fe5b7cf60c479a7b1711321d3f50ffb7d1f7b0637a9901410fd": {
+      "claimed_at": "2026-04-17T11:37:38.600Z",
+      "session_data": {
+        "json_url": "https://cbr7gyyusonrwor3ue2uxkycpjfkoz67bvssd5smhv3iytkwei4q.ar.io/EGPzYxSTmxs6O6E1S6sCekqnZ98NZSH2TD12jE1WIjk?.json",
+        "final_json": {
+          "asset": "SATOSHES",
+          "pgpsig": "S1Mon",
+          "description": "Street art of Satoshi",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://2o6khqma73eiws7nzlpuw5fbtgzhwo3f26qkmkgyy6mgjox6o4uq.ar.io/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk?.png",
+          "image_large": "https://x6doha3yfxuiv6nr3ehmu64qm2awxixvkgppxl2t2peucvlueg3a.ar.io/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk",
+            "url": "https://arweave.net/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk",
+            "ario_url": "https://2o6khqma73eiws7nzlpuw5fbtgzhwo3f26qkmkgyy6mgjox6o4uq.ar.io/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk?.png",
+            "name": "IMG_7228.png"
+          },
+          "image": {
+            "txid": "v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY",
+            "url": "https://arweave.net/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY",
+            "ario_url": "https://x6doha3yfxuiv6nr3ehmu64qm2awxixvkgppxl2t2peucvlueg3a.ar.io/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY?.jpg",
+            "name": "IMG_7228.jpeg"
+          }
+        }
+      }
+    },
+    "e03b860dd66d20c918559f2fcc60d7e00720cfde2ac776c7fee333e5a89cc76f": {
+      "claimed_at": "2026-04-18T14:40:10.028Z",
+      "session_data": {
+        "json_url": "https://grbaogbhemwan55rionwodguo6oixravanw6rvqlj55qwwunc3ca.ar.io/NEIHGCcjLAb3sUObZwzUd5yLxBUDbejWC097C1qNFsQ?.json",
+        "final_json": {
+          "asset": "FAKEARWYN.SUPERMARIOWYN",
+          "pgpsig": "@S1MONS",
+          "description": "Been a while since I made one of these",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://5lqlprz2cfmwpfvfk37h53a6wpr6tfoqhsvy2jv3v5637n3cn72q.ar.io/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U?.png",
+          "image_large": "https://f7bz4uuwugjdti3u7ce2kztrjl6o5562bal77znelwa54m552mbq.ar.io/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U",
+            "url": "https://arweave.net/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U",
+            "ario_url": "https://5lqlprz2cfmwpfvfk37h53a6wpr6tfoqhsvy2jv3v5637n3cn72q.ar.io/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U?.png",
+            "name": "IMG_7327.png"
+          },
+          "image": {
+            "txid": "L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM",
+            "url": "https://arweave.net/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM",
+            "ario_url": "https://f7bz4uuwugjdti3u7ce2kztrjl6o5562bal77znelwa54m552mbq.ar.io/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM?.png",
+            "name": "IMG_7327.png"
+          }
+        }
+      }
+    },
+    "2d4d9b093245e90f1d2080548317f7ab730a909be08a310b9ebfa9a7656f1bd2": {
+      "claimed_at": "2026-04-18T15:13:49.352Z",
+      "session_data": {
+        "json_url": "https://mkobzj5wrxxqo3gj223lecfgr7eftpwlin5erupl4epprcnklxsa.ar.io/Ypwcp7aN7wdsyda2sgimj8hZvstDekjR6-Ee-ImqXeQ?.json",
+        "final_json": {
+          "asset": "SKATETOSHI",
+          "pgpsig": "@S1MONS",
+          "description": "Skating Satoshi",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://rv7i6ucw42e2bvkd3ug33iceyhzqe7aibxgspcdok43olwzdotia.ar.io/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA?.png",
+          "image_large": "https://34dp5quevtrdvstts5btkhf3fnuud5h5oqgjiqxqsavo4nuh345a.ar.io/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA",
+            "url": "https://arweave.net/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA",
+            "ario_url": "https://rv7i6ucw42e2bvkd3ug33iceyhzqe7aibxgspcdok43olwzdotia.ar.io/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA?.png",
+            "name": "webResult 14.png"
+          },
+          "image": {
+            "txid": "3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo",
+            "url": "https://arweave.net/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo",
+            "ario_url": "https://34dp5quevtrdvstts5btkhf3fnuud5h5oqgjiqxqsavo4nuh345a.ar.io/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo?.jpg",
+            "name": "webResult.jpeg"
+          }
+        }
+      }
+    },
+    "6e221dfc7ac2a669c04f2feba9a9bab5592397b2b47cb6313e8286298dddc706": {
+      "claimed_at": "2026-04-22T18:53:27.020Z",
+      "session_data": {
+        "json_url": "https://sly7xkx3ff2dhstpkmmbfpd6gzy3hc6difw5ael2uesmzxqfljhq.ar.io/kvH7qvspdDPKb1MYErx-NnGzi8NBbdAReqEkzN4FWk8?.json",
+        "final_json": {
+          "asset": "DJCORNKNOME",
+          "pgpsig": "CORRECT",
+          "description": "DJ CORN KNOME SPINS \"ILL KINETIK\" by DJ DUST-IT",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://wgikrn52ftx2wkcm7rhff7ir2aiksdnl2zplk636ld4qfco3q2xq.ar.io/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8?.png",
+          "image_large": "https://oy7zgjzbgwqq2bogzxv3zrojf2yg3efj7awsmjaqmmazl3xekxua.ar.io/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg?.png",
+          "image_large_hd": "https://fndnb45j545nmsh3kpeibntxugmyui6mgdeks4jjrj6nqbvdq4ga.ar.io/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww?.png",
+          "audio": "https://bimvzlypgyod342falqdaxjjzb6e3chvy7wa4ylnxu3xzm45rviq.ar.io/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE?.mp3",
+          "twitter": "https://x.com/bencustom",
+          "website": "https://fauxbitcorn.com/#submit"
+        },
+        "media": {
+          "thumb": {
+            "txid": "sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8",
+            "url": "https://arweave.net/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8",
+            "ario_url": "https://wgikrn52ftx2wkcm7rhff7ir2aiksdnl2zplk636ld4qfco3q2xq.ar.io/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8?.png",
+            "name": "48.png"
+          },
+          "image": {
+            "txid": "dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg",
+            "url": "https://arweave.net/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg",
+            "ario_url": "https://oy7zgjzbgwqq2bogzxv3zrojf2yg3efj7awsmjaqmmazl3xekxua.ar.io/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg?.png",
+            "name": "Picsart_26-04-22_11-36-52-313.png"
+          },
+          "imageHd": {
+            "txid": "K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww",
+            "url": "https://arweave.net/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww",
+            "ario_url": "https://fndnb45j545nmsh3kpeibntxugmyui6mgdeks4jjrj6nqbvdq4ga.ar.io/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww?.png",
+            "name": "Picsart_26-04-22_11-36-52-313.png"
+          },
+          "audio": {
+            "txid": "Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE",
+            "url": "https://arweave.net/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE",
+            "ario_url": "https://bimvzlypgyod342falqdaxjjzb6e3chvy7wa4ylnxu3xzm45rviq.ar.io/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE?.mp3",
+            "name": "ill-kinetik.mp3"
+          }
+        }
+      }
+    },
+    "d74b9f980b44e75b5c2eb3db0aadcf552bb5d69e4ec4491aa724d6e762118d81": {
+      "claimed_at": "2026-04-24T16:42:08.140Z",
+      "session_data": {
+        "json_url": "https://gej4lhvde34yjoxwqbtdpxaol2j5fkoxxg6xh5pmvez7xa4apf5a.ar.io/MRPFnqMm-YS69oBmN9wOXpPSqde5vXP17Kkz-4OAeXo?.json",
+        "final_json": {
+          "asset": "MINISATOSHI",
+          "pgpsig": "@S1MONS",
+          "description": "Miniature Satoshi Nakamoto",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://kt4zo2tfqxdzewpvmgivxrynookmlqkbtn6noybl452alpjijceq.ar.io/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk?.png",
+          "image_large": "https://uxnci7nwxmhqqejlr4tp5rdcbktgcilrjyf3gdbkfp4cypniwtfa.ar.io/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk",
+            "url": "https://arweave.net/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk",
+            "ario_url": "https://kt4zo2tfqxdzewpvmgivxrynookmlqkbtn6noybl452alpjijceq.ar.io/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk?.png",
+            "name": "webResult 15.png"
+          },
+          "image": {
+            "txid": "pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo",
+            "url": "https://arweave.net/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo",
+            "ario_url": "https://uxnci7nwxmhqqejlr4tp5rdcbktgcilrjyf3gdbkfp4cypniwtfa.ar.io/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo?.jpg",
+            "name": "webResult.jpeg"
+          }
+        }
+      }
+    },
+    "b7e6d416fb5a28eaaa7e5665ce746320a2394dc787607bfa38815d38fb0e1fa7": {
+      "claimed_at": "2026-04-26T16:02:30.541Z",
+      "session_data": {
+        "json_url": "https://so34b3owx36noz7yyofis5flzw3uwzfvm2d4n7ox3ig2ecyspkyq.ar.io/k7fA7da-_Ndn-MOKiXSrzbdLZLVmh8b919oNogsSerE?.json",
+        "final_json": {
+          "asset": "NOVAX",
+          "pgpsig": "@S1MONS",
+          "description": "Novax follow up",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://k3bpgvjo7vtkg6whh4ldduzxfwcnof7tqdmj3u7qbxvzgkkhalca.ar.io/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ?.png",
+          "image_large": "https://tkyk7mbhpmkot5lc7p24wlmqnozkdrqueg7zlkdnm5qzzae6yutq.ar.io/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ",
+            "url": "https://arweave.net/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ",
+            "ario_url": "https://k3bpgvjo7vtkg6whh4ldduzxfwcnof7tqdmj3u7qbxvzgkkhalca.ar.io/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ?.png",
+            "name": "IMG_7592.png"
+          },
+          "image": {
+            "txid": "mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc",
+            "url": "https://arweave.net/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc",
+            "ario_url": "https://tkyk7mbhpmkot5lc7p24wlmqnozkdrqueg7zlkdnm5qzzae6yutq.ar.io/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc?.png",
+            "name": "IMG_7592.png"
+          }
+        }
+      }
+    },
+    "5d9a634ad08f3fd4dfba46837cc20b9eb2e80460162c7d643f1c66441a835ce8": {
+      "claimed_at": "2026-04-26T16:37:52.497Z",
+      "session_data": {
+        "json_url": "https://ziaarsjbsd6xn6ceoj3yn7xs2ptvsqgna37f24ygr7u56vltiifq.ar.io/ygAIySGQ_Xb4RHJ3hv7y0-dZQM0G_l1zBo_p31VzQgs?.json",
+        "final_json": {
+          "asset": "CODIES",
+          "pgpsig": "@S1MONS",
+          "description": "Mini Cody the Campbell",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://azm3wc3n73kg5kj7jhl56axjoltk374tpjcrudpo5djdt64uflea.ar.io/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg?.png",
+          "image_large": "https://mduqdt66kwibdsymhd3izltfoi6t7wa46kodasoc74f7qpnxxy4q.ar.io/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg",
+            "url": "https://arweave.net/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg",
+            "ario_url": "https://azm3wc3n73kg5kj7jhl56axjoltk374tpjcrudpo5djdt64uflea.ar.io/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg?.png",
+            "name": "webResult 16.png"
+          },
+          "image": {
+            "txid": "YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk",
+            "url": "https://arweave.net/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk",
+            "ario_url": "https://mduqdt66kwibdsymhd3izltfoi6t7wa46kodasoc74f7qpnxxy4q.ar.io/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk?.jpg",
+            "name": "webResult.jpeg"
+          }
+        }
+      }
+    },
+    "5a2a6959f269dde22f20a014b9edf1e3b4a22bc0bd9f4422d55b9009da2db40e": {
+      "claimed_at": "2026-05-04T15:03:11.806Z",
+      "session_data": {
+        "json_url": "https://tswr5urnr2gh4voe4ydthyojcllr2njej3oi3sgkychfax5htiia.ar.io/nK0e0i2OjH5VxOYHM-HJEtcdNSRO3I3IysCOUF-nmhA?.json",
+        "final_json": {
+          "asset": "WOJAKNFT.TWO",
+          "pgpsig": "@S1MONS",
+          "description": "Becoming Wojak",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://u67m5komvp63jb7yeontsftje3amyncsalnmw24rovm23pmx426q.ar.io/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0?.png",
+          "image_large": "https://g5sdnxu675nsyigfaad5iojetfsudr3jdu756bfv5zumd5vgshmq.ar.io/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0",
+            "url": "https://arweave.net/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0",
+            "ario_url": "https://u67m5komvp63jb7yeontsftje3amyncsalnmw24rovm23pmx426q.ar.io/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0?.png",
+            "name": "IMG_7939.png"
+          },
+          "image": {
+            "txid": "N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk",
+            "url": "https://arweave.net/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk",
+            "ario_url": "https://g5sdnxu675nsyigfaad5iojetfsudr3jdu756bfv5zumd5vgshmq.ar.io/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk?.png",
+            "name": "IMG_7939.png"
+          }
+        }
+      }
+    },
+    "d77ec1df3c7c2ee7ed7e5f44c456f6969273027408b3b0eb4323f42a52a746ee": {
+      "claimed_at": "2026-05-05T16:32:08.330Z",
+      "session_data": {
+        "json_url": "https://gnfqgkonfrsefksyjhizygacy56flmoic2ykv7hkg2ctnljm7gsa.ar.io/M0sDKc0sZEKqWEnRnBgCx3xVscgWsKr86jaFNq0s-aQ?.json",
+        "final_json": {
+          "asset": "LIMEWIRE",
+          "pgpsig": "@S1MONS",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://qf7wzn5wkgrgchnh4xof4pcshrrgstinzfpzrkzqw7rfiazkurea.ar.io/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg?.png",
+          "image_large": "https://dgx34dunhmxxlgq6lmun74r7yl7gyeszvs3wwt6q7f5ymthngcoa.ar.io/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg",
+            "url": "https://arweave.net/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg",
+            "ario_url": "https://qf7wzn5wkgrgchnh4xof4pcshrrgstinzfpzrkzqw7rfiazkurea.ar.io/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg?.png",
+            "name": "IMG_8051 2.png"
+          },
+          "image": {
+            "txid": "Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw",
+            "url": "https://arweave.net/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw",
+            "ario_url": "https://dgx34dunhmxxlgq6lmun74r7yl7gyeszvs3wwt6q7f5ymthngcoa.ar.io/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw?.jpg",
+            "name": "IMG_8051.jpeg"
+          }
+        }
+      }
+    },
+    "abd936cb1d4418ce995160999296e42d6c9e2f34d2281a49ed3647309a1c6dba": {
+      "claimed_at": "2026-05-06T12:03:49.869Z",
+      "session_data": {
+        "json_url": "https://b6hzj6hmhzo6oy6co4d6q2w2tyugs67x3bcobern5hgx33vmeeua.ar.io/D4-U-Ow-XedjwncH6Granihpe_fYROCSLenNfe6sISg?.json",
+        "final_json": {
+          "asset": "THEAFROMAN",
+          "pgpsig": "@S1MONS",
+          "description": "I got high",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://twnydlyqng6ayhpe6e2n2cvkekh6j56ghooqpan4bjlvwnglbdza.ar.io/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI?.png",
+          "image_large": "https://losq356mm6hjzbg3mpd3r6nizt3wdykbgf2bhf3vpudq6ada5lsq.ar.io/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU?.jpg",
+          "twitter": "HTTPS//x.com"
+        },
+        "media": {
+          "thumb": {
+            "txid": "nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI",
+            "url": "https://arweave.net/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI",
+            "ario_url": "https://twnydlyqng6ayhpe6e2n2cvkekh6j56ghooqpan4bjlvwnglbdza.ar.io/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI?.png",
+            "name": "IMG_8100.png"
+          },
+          "image": {
+            "txid": "W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU",
+            "url": "https://arweave.net/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU",
+            "ario_url": "https://losq356mm6hjzbg3mpd3r6nizt3wdykbgf2bhf3vpudq6ada5lsq.ar.io/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU?.jpg",
+            "name": "IMG_8100.jpeg"
+          }
+        }
+      }
+    },
+    "a0b9a2cd6836a64e893c0d4d8939c871d131cfa4eca05f98e47c876404c2032d": {
+      "claimed_at": "2026-05-07T12:49:26.961Z",
+      "session_data": {
+        "json_url": "https://pf5dsqzwla6qlu2aff5jjubq6evwrolvvshk3x2y52ybjkc6zdoa.ar.io/eXo5QzZYPQXTQCl6lNAw8StouXWsjq3fWO6wFKheyNw?.json",
+        "final_json": {
+          "asset": "PUCKMAN",
+          "pgpsig": "@S1MONS",
+          "description": "Original Logo for Pacman",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://qml27jh5vsezxpxs7ofmmro3pdkbu435pngwo2avaiconfjh5q6a.ar.io/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw?.png",
+          "image_large": "https://6wljwuja6l2sgthnu6qroexpjq5cfyyimwmbmhbvejhduhgwli4q.ar.io/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw",
+            "url": "https://arweave.net/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw",
+            "ario_url": "https://qml27jh5vsezxpxs7ofmmro3pdkbu435pngwo2avaiconfjh5q6a.ar.io/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw?.png",
+            "name": "IMG_6746.png"
+          },
+          "image": {
+            "txid": "9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk",
+            "url": "https://arweave.net/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk",
+            "ario_url": "https://6wljwuja6l2sgthnu6qroexpjq5cfyyimwmbmhbvejhduhgwli4q.ar.io/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk?.jpg",
+            "name": "IMG_6746.jpeg"
+          }
+        }
+      }
+    },
+    "e6915e449dc5349dddb28bcbcce7ff6c51dba78eeb97c4ae02348965700f9b2e": {
+      "claimed_at": "2026-05-07T13:04:09.945Z",
+      "session_data": {
+        "json_url": "https://fpcjjmdbtro7wtmyx4qkhop3fejxiemwzkfti67zr6ebldj7xjzq.ar.io/K8SUsGGcXftNmL8go7n7KRN0EZbKizR7-Y-IFY0_unM?.json",
+        "final_json": {
+          "description": "Nakamoto Super Mario",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://ypn2hqfsjxxpmi3uwhoe57lzutneojwurqf2lntpdcibiaincrdq.ar.io/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc?.png",
+          "image_large": "https://hkgbfzyyaxvsn74pt6mws7jdjzcmbiuqdhtleuojme5nbrtsfhaa.ar.io/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA?.jpg",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc",
+            "url": "https://arweave.net/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc",
+            "ario_url": "https://ypn2hqfsjxxpmi3uwhoe57lzutneojwurqf2lntpdcibiaincrdq.ar.io/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc?.png",
+            "name": "webResult 19.png"
+          },
+          "image": {
+            "txid": "OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA",
+            "url": "https://arweave.net/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA",
+            "ario_url": "https://hkgbfzyyaxvsn74pt6mws7jdjzcmbiuqdhtleuojme5nbrtsfhaa.ar.io/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA?.jpg",
+            "name": "webResult.jpeg"
+          }
+        }
+      }
+    },
+    "20ef3552599792e534db7aeda7b273651aa1116b9ab8bbe568d3e31e0443bb2a": {
+      "claimed_at": "2026-05-07T14:05:06.431Z",
+      "session_data": {
+        "json_url": "https://hodgpgflnqpoiowy54pca3xs37bbotagywzmkn2boutfzybcneqa.ar.io/O4ZnmKtsHuQ62O8eIG7y38IXTAbFssU3QXUmXOAiaSA?.json",
+        "final_json": {
+          "asset": "A8857936745080044219",
+          "pgpsig": "@S1MONS",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://c44pc4m46h2f3mjjtliwowsg3bm6y33dvjcg35l5upx6s5l7i2wa.ar.io/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw?.png",
+          "image_large": "https://p66q5zjhqmft6eyuuiczlr5mgvxoariarri65zjdix5q5qfm7ygq.ar.io/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0?.jpg"
+        },
+        "media": {
+          "thumb": {
+            "txid": "FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw",
+            "url": "https://arweave.net/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw",
+            "ario_url": "https://c44pc4m46h2f3mjjtliwowsg3bm6y33dvjcg35l5upx6s5l7i2wa.ar.io/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw?.png",
+            "name": "IMG_8152.png"
+          },
+          "image": {
+            "txid": "f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0",
+            "url": "https://arweave.net/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0",
+            "ario_url": "https://p66q5zjhqmft6eyuuiczlr5mgvxoariarri65zjdix5q5qfm7ygq.ar.io/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0?.jpg",
+            "name": "IMG_8152.jpeg"
+          }
+        }
+      }
+    },
+    "133b09c476fa37da6ddae804de9f0717711ab018f4bdee72e5eae5f62cf7ee60": {
+      "claimed_at": "2026-05-13T16:19:56.313Z",
+      "session_data": {
+        "json_url": "https://s3r3phw2ferxyfvcv67i6vaoaspxqx7w74tg5bkd3nggrrlgvvia.ar.io/luO3ntopI3wWoq--j1QOBJ94X_b_Jm6FQ9tMaMVmrVA?.json",
+        "final_json": {
+          "asset": "GAYPIGEON",
+          "pgpsig": "@S1MONS",
+          "description": "Only Gay bird in the flock",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://a3owe4rdd7o7ueqpzpfkvvaftjmlppfe65hpdcaomq2acjgk7rya.ar.io/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA?.png",
+          "image_large": "https://tfwjvi4sw65bwnzn26t34j423rbmm7n4bcyll57ge2udiaqgwptq.ar.io/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA",
+            "url": "https://arweave.net/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA",
+            "ario_url": "https://a3owe4rdd7o7ueqpzpfkvvaftjmlppfe65hpdcaomq2acjgk7rya.ar.io/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA?.png",
+            "name": "IMG_8363.png"
+          },
+          "image": {
+            "txid": "mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c",
+            "url": "https://arweave.net/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c",
+            "ario_url": "https://tfwjvi4sw65bwnzn26t34j423rbmm7n4bcyll57ge2udiaqgwptq.ar.io/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c?.png",
+            "name": "IMG_8363.png"
+          }
+        }
+      }
+    },
+    "b1089025092898fbbdc43ac2ca7862ae06884a24928128bfb6aa5d464f366271": {
+      "claimed_at": "2026-05-14T13:44:08.981Z",
+      "session_data": {
+        "json_url": "https://4yhnzukq423kshoyisaulipmwfvl7antrgeunbilmsdo3eu6pkeq.ar.io/5g7c0VDmtqkd2ESBRaHssWq_gbOJiUaFC2SG7ZKeeok?.json",
+        "final_json": {
+          "asset": "EMINPEPE",
+          "pgpsig": "@S1MONS",
+          "description": "What a mess",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://rd7jqnhut4wtjyt7sdljs23iwq2qlprtqgkepjbiascxcczyl4jq.ar.io/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM?.png",
+          "image_large": "https://ycnhx6m455tsorkyv5bpqrpnqbyh3cnojpuzoej2yhdltt6lxbwq.ar.io/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM",
+            "url": "https://arweave.net/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM",
+            "ario_url": "https://rd7jqnhut4wtjyt7sdljs23iwq2qlprtqgkepjbiascxcczyl4jq.ar.io/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM?.png",
+            "name": "IMG_8373.png"
+          },
+          "image": {
+            "txid": "wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0",
+            "url": "https://arweave.net/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0",
+            "ario_url": "https://ycnhx6m455tsorkyv5bpqrpnqbyh3cnojpuzoej2yhdltt6lxbwq.ar.io/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0?.png",
+            "name": "IMG_8373.png"
+          }
+        }
+      }
+    },
+    "54d081354a267376c3cb0d6875092e73fbd2b7910322446d179ae931a65a37a9": {
+      "claimed_at": "2026-05-16T14:56:24.912Z",
+      "session_data": {
+        "json_url": "https://psi2s5niof6kbdkhztds3sgqvd5l4qtbro7qtww7wmhx7fxbu6fq.ar.io/fJGpdahxfKCNR8zHLcjQqPq-QmGLvwna37MPf5bhp4s?.json",
+        "final_json": {
+          "asset": "KEVINWARSH",
+          "pgpsig": "@S1MONS",
+          "description": "We are all Kevin!",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://nxyimgosjvz55dz7chjvzqvbv6xq5rpgdcxgla4mzlzgelzr7omq.ar.io/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k?.png",
+          "image_large": "https://4ditjm5ox5frv63anephe2k535x3762v3kdwcuczq253stegwngq.ar.io/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00?.png",
+          "twitter": "HTTPS//x.com/simondmorris"
+        },
+        "media": {
+          "thumb": {
+            "txid": "bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k",
+            "url": "https://arweave.net/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k",
+            "ario_url": "https://nxyimgosjvz55dz7chjvzqvbv6xq5rpgdcxgla4mzlzgelzr7omq.ar.io/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k?.png",
+            "name": "IMG_8473.png"
+          },
+          "image": {
+            "txid": "4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00",
+            "url": "https://arweave.net/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00",
+            "ario_url": "https://4ditjm5ox5frv63anephe2k535x3762v3kdwcuczq253stegwngq.ar.io/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00?.png",
+            "name": "IMG_8473.png"
+          }
+        }
+      }
+    },
+    "643f3526a02a67af25fbd3b6c86fcdc968b43706927783504afb5c891bdd2249": {
+      "claimed_at": "2026-05-22T16:58:40.724Z",
+      "session_data": {
+        "json_url": "https://xem72zzevu5sat7iyyom3jv7dhvzdey65oz32tjh7nu3a6q4oqaq.ar.io/uRn9ZyStOyBP6MYczaa_GeuRkx7rs71NJ_tpsHocdAE?.json",
+        "final_json": {
+          "asset": "Penpenaerial",
+          "pgpsig": "Bcarver",
+          "description": "UnfukwitableAerialPenPen",
+          "category": "Art",
+          "subcategory": "NFT",
+          "image": "https://rvgijgwdkss5rvijuysw6a4rwuiwlxgzp5n75kp45oa75kh3y56a.ar.io/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w?.png",
+          "image_large": "https://7ekzojgc2ecffjlbjop6u7mcvbznydydttk5fvmfqn55tvi2x7ea.ar.io/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g?.png"
+        },
+        "media": {
+          "thumb": {
+            "txid": "jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w",
+            "url": "https://arweave.net/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w",
+            "ario_url": "https://rvgijgwdkss5rvijuysw6a4rwuiwlxgzp5n75kp45oa75kh3y56a.ar.io/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w?.png",
+            "name": "PENPENAERIAL_48×48.png"
+          },
+          "image": {
+            "txid": "-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g",
+            "url": "https://arweave.net/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g",
+            "ario_url": "https://7ekzojgc2ecffjlbjop6u7mcvbznydydttk5fvmfqn55tvi2x7ea.ar.io/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g?.png",
+            "name": "PENPENAERIAL_400×560.png"
+          }
+        }
+      }
+    },
+    "c296287a209c236d8f4c23e266823c3dbc9f66d8c8fee3f3ac86a7628e96ee19": {
+      "claimed_at": "2026-05-24T21:17:50.466Z",
+      "session_data": {
+        "json_url": "https://raa7f2y5acozklk25ouhm7jhey2swr54z26zcuyztl2wvab5zfvq.ar.io/iAHy6x0AnZUtWuuodn0nJjUrR7zOvZFTGZr1aoA9yWs?.json",
+        "final_json": {
+          "asset": "TOKENEYEZED",
+          "pgpsig": "Bcarver",
+          "category": "Art",
+          "image": "https://rjcd67qfoqeh2ttedr2bmyhi6knbr432farmsgixvxaff7j4zlbq.ar.io/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM?.png",
+          "image_large": "https://mtj5mmlfxuta4l5glzvpymqamkkwahizrmpf7moblq5skcss2sda.ar.io/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY?.png"
+        },
+        "media": {
+          "thumb": {
+            "txid": "ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM",
+            "url": "https://arweave.net/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM",
+            "ario_url": "https://rjcd67qfoqeh2ttedr2bmyhi6knbr432farmsgixvxaff7j4zlbq.ar.io/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM?.png",
+            "name": "TOKENEYEZED_48×48.png"
+          },
+          "image": {
+            "txid": "ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY",
+            "url": "https://arweave.net/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY",
+            "ario_url": "https://mtj5mmlfxuta4l5glzvpymqamkkwahizrmpf7moblq5skcss2sda.ar.io/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY?.png",
+            "name": "TOKENEYEZED_400×560.png"
+          }
+        }
+      }
+    },
+    "7cee944a83efe2223453deba0cb762900135bdcf4b219e2e6a20e6cd5b527ca7": {
+      "claimed_at": "2026-05-27T21:47:58.494Z",
+      "session_data": {
+        "json_url": "https://vtspautn2e7zufeumy3zekdm75unsoeyxtxo7hx7ebdpl4vkpvdq.ar.io/rOTwUm3RP5oUlGY3kihs_2jZOJi87u-e_yBG9fKqfUc?.json",
+        "final_json": {
+          "asset": "PEPEANUNNAKI",
+          "pgpsig": "Denim_Dee",
+          "description": "From the golden mines of Nibiru they descended-star-forged sovereigns decreeing fate in cuneiform and croak. Yet in the great flood of memes arose one who wears the horned crown lightly: 'Rare Pepe feels good, man.' The Anunnaki laughed in seven voices, and humanity was remade in His image... one smug expression at a time.",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://3gjcuidyrkwi4vmb32w6b5i57rugyxjygvg7ms7feaiy7udoo7ia.ar.io/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A?.png",
+          "image_large": "https://rbyvlz7exvizezacfrwhd6tipoaofdoqc25et3dcmdihxojk6pea.ar.io/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g?.png",
+          "twitter": "@DenimDolphin888",
+          "website": "greypepeproject.com"
+        },
+        "media": {
+          "thumb": {
+            "txid": "2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A",
+            "url": "https://arweave.net/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A",
+            "ario_url": "https://3gjcuidyrkwi4vmb32w6b5i57rugyxjygvg7ms7feaiy7udoo7ia.ar.io/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A?.png",
+            "name": "tinkpro-resized-48x48(3).png"
+          },
+          "image": {
+            "txid": "iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g",
+            "url": "https://arweave.net/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g",
+            "ario_url": "https://rbyvlz7exvizezacfrwhd6tipoaofdoqc25et3dcmdihxojk6pea.ar.io/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g?.png",
+            "name": "PEPEANUNNAKI Final.png"
+          }
+        }
+      }
+    },
+    "09345cd564b8b32ae272f0648b320ff6de46d22b2afbcd6ea236f97fc0fdab0f": {
+      "claimed_at": "2026-05-28T17:39:49.084Z",
+      "session_data": {
+        "json_url": "https://fge5fz2j7nye574xbuu7z7j47lyciohpp3kkiyvvjj6weyneem7q.ar.io/KYnS50n7cE7_lw0p_P08-vAkOO9-1KRitUp9YmGkIz8?.json",
+        "final_json": {
+          "asset": "PEPEROGERS",
+          "pgpsig": "Bcarver",
+          "description": "QClearancePepetriot",
+          "category": "Art",
+          "image": "https://nadyktfkfovbabufqwx5nv5kqs4sh447xccay7gu22nkdeddsoua.ar.io/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g?.png",
+          "image_large": "https://tvru4p2efyd5htzzcm6k3uyi2oasgm6g3g3ccntw5pvmcj2iw6ia.ar.io/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A?.png"
+        },
+        "media": {
+          "thumb": {
+            "txid": "aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g",
+            "url": "https://arweave.net/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g",
+            "ario_url": "https://nadyktfkfovbabufqwx5nv5kqs4sh447xccay7gu22nkdeddsoua.ar.io/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g?.png",
+            "name": "PEPEROGERS_48x48.png"
+          },
+          "image": {
+            "txid": "nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A",
+            "url": "https://arweave.net/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A",
+            "ario_url": "https://tvru4p2efyd5htzzcm6k3uyi2oasgm6g3g3ccntw5pvmcj2iw6ia.ar.io/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A?.png",
+            "name": "PEPEROGERS_400x560.png"
+          }
+        }
+      }
+    },
+    "1cf7ef191b9621539b22f9991b1564dc83fb2557be3db9eff6a45aac07cc6b52": {
+      "claimed_at": "2026-05-30T18:37:21.619Z",
+      "session_data": {
+        "json_url": "https://3nyay6ni3tcl6psg44w3ydzpzlghig6kdnhycavegbelzao5xv7a.ar.io/23AMeajcxL8-RuctvA8vysx0G8obT4ECpDBIvIHdvX4?.json",
+        "final_json": {
+          "asset": "IWANTTOKEK",
+          "pgpsig": "OK_SA",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://xmuzxrpdg4izfgz7grgkg6tfhqg3cslahghjnwqptktzmpfnd6ma.ar.io/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g?.png",
+          "image_large": "https://mxyjg2ea6fzcrly6bfdg63t46o2g4qgrc7re5qjkwxutzhbyb7gq.ar.io/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80?.jpg",
+          "twitter": "@SeanAlbrite406",
+          "website": "www.GreyPepeProject.com"
+        },
+        "media": {
+          "thumb": {
+            "txid": "uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g",
+            "url": "https://arweave.net/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g",
+            "ario_url": "https://xmuzxrpdg4izfgz7grgkg6tfhqg3cslahghjnwqptktzmpfnd6ma.ar.io/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g?.png",
+            "name": "tinkpro-resized-48x48(4).png"
+          },
+          "image": {
+            "txid": "ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80",
+            "url": "https://arweave.net/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80",
+            "ario_url": "https://mxyjg2ea6fzcrly6bfdg63t46o2g4qgrc7re5qjkwxutzhbyb7gq.ar.io/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80?.jpg",
+            "name": "IWANTTOKEK.jpg"
+          }
+        }
+      }
+    },
+    "1e93a1d4d16a468f30e5d482438e094aef4a775f4f4b61159ee4cecdc705c658": {
+      "claimed_at": "2026-05-30T21:47:57.088Z",
+      "session_data": {
+        "json_url": "https://l7ojapxjivizcg4b47el2omgqeqqrdr7jbjgzw7mn5ivcpktzvpq.ar.io/X9yQPulFUZEbgefIvTmGgSEIjj9IUmzb7G9RUT1TzV8?.json",
+        "final_json": {
+          "asset": "IWANTTOKEK",
+          "pgpsig": "OK_SA",
+          "category": "Art",
+          "subcategory": "Pepe",
+          "image": "https://tyftac7vruoghwitdav32rxbxp7qzf5k3r3musm63fx6ysrgulfa.ar.io/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso?.png",
+          "image_large": "https://ejnml7ntg6atoqunj5cxelgszpgpdrdakb3jc3yhd42rbg7abtba.ar.io/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI?.png",
+          "twitter": "https://x.com/SeanAlbrite406",
+          "website": "www.GreyPepeProject.com"
+        },
+        "media": {
+          "thumb": {
+            "txid": "ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso",
+            "url": "https://arweave.net/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso",
+            "ario_url": "https://tyftac7vruoghwitdav32rxbxp7qzf5k3r3musm63fx6ysrgulfa.ar.io/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso?.png",
+            "name": "Thumb.png"
+          },
+          "image": {
+            "txid": "IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI",
+            "url": "https://arweave.net/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI",
+            "ario_url": "https://ejnml7ntg6atoqunj5cxelgszpgpdrdakb3jc3yhd42rbg7abtba.ar.io/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI?.png",
+            "name": "IWANTTOKEK.png"
+          }
+        }
+      }
     }
   },
   "sessions": [
@@ -135,6 +1043,884 @@
           "url": "https://arweave.net/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk",
           "ario_url": "https://hqecrq2lhm6et4ioogqz4kkvnon5y4nsh4meamv4kvn7thgz4u4q.ar.io/PAgow0s7PEnxDnGhnilVa5vccbI_GEAyvFVb-ZzZ5Tk?.png",
           "name": "BitcoinStamp (1).png"
+        }
+      }
+    },
+    {
+      "txid": "8bff2fa6e2cf3ba3829faabc541276fbb516e0e1377927a93631a8249a0acca2",
+      "claimed_at": "2026-04-04T18:41:56.459Z",
+      "json_url": "https://xefzfowvqiewlkscznngiohuuqpqsxkoi5y2z2fq6dnppj5bg3aa.ar.io/uQuSutWCCWWqQstaZDj0pB8JXU5HcazosPDa96ehNsA?.json",
+      "final_json": {
+        "asset": "ORVILLE",
+        "pgpsig": "HNFT Pepe",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://qddvzaurhg6nf3z5fshjjf7h2xcljct26xz3j545fwqyx6knqojq.ar.io/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M?.png",
+        "image_large": "https://mllbbkhjoohat32k6djrd4sxolilogslhckqcd6zewwqfipl53ka.ar.io/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ?.png",
+        "twitter": "https://x.com/HnftPepe",
+        "website": "https://fauxbitcorn.com/"
+      },
+      "media": {
+        "thumb": {
+          "txid": "gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M",
+          "url": "https://arweave.net/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M",
+          "ario_url": "https://qddvzaurhg6nf3z5fshjjf7h2xcljct26xz3j545fwqyx6knqojq.ar.io/gMdcgpE5vNLvPSyOlJfn1cS0inr187T3nS2hi_lNg5M?.png",
+          "name": "Thumb.png"
+        },
+        "image": {
+          "txid": "YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ",
+          "url": "https://arweave.net/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ",
+          "ario_url": "https://mllbbkhjoohat32k6djrd4sxolilogslhckqcd6zewwqfipl53ka.ar.io/YtYQqOlzjgnvSvDTEfJXctC3Gks4lQEP2SWtAqHr7tQ?.png",
+          "name": "ORVILLE.png"
+        }
+      }
+    },
+    {
+      "txid": "a049e9cc9e8d5e3777fbb667978769d1d76d3c79c94642085ea61af1ef3ca2fc",
+      "claimed_at": "2026-04-05T20:17:49.841Z",
+      "json_url": "https://dcpqz4uwkqv4lyfjezjjlv3htdv3avlpsv4jugfxk7pggqynhjqq.ar.io/GJ8M8pZUK8XgqSZSlddnmOuwVW-VeJoYt1feY0MNOmE?.json",
+      "final_json": {
+        "asset": "PEZMARLEY",
+        "pgpsig": "@S1MONS",
+        "description": "Bob Marley Pez Dispenser",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://5qtudxur34tuj3iaqb5j7hc4ruvviuaqiym7rgwhgvewmql5dxoa.ar.io/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw?.png",
+        "image_large": "https://yyad37nrwtq2kwdolgibyr5pph6rfqlbpd2fea3azq3lttiwgika.ar.io/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ?.jpg",
+        "twitter": "@S1MONS"
+      },
+      "media": {
+        "thumb": {
+          "txid": "7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw",
+          "url": "https://arweave.net/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw",
+          "ario_url": "https://5qtudxur34tuj3iaqb5j7hc4ruvviuaqiym7rgwhgvewmql5dxoa.ar.io/7CdB3pHfJ0TtAIB6n5xcjStUUBBGGfiaxzVJZkF9Hdw?.png",
+          "name": "IMG_6691.png"
+        },
+        "image": {
+          "txid": "xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ",
+          "url": "https://arweave.net/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ",
+          "ario_url": "https://yyad37nrwtq2kwdolgibyr5pph6rfqlbpd2fea3azq3lttiwgika.ar.io/xgA9_bG04aVYblmQHEevef0SwWF49FIDYMw2uc0WMhQ?.jpg",
+          "name": "IMG_6691.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "c44bc80f9c3df09c956803596c0768c9e7d6f1d54b27205857738e026e1cf808",
+      "claimed_at": "2026-04-10T19:13:01.339Z",
+      "json_url": "https://kjxcjv36ffv7c2bctsnvemnaujmmspeeamp2n6n2yhjrys4ftkga.ar.io/Um4k134pa_FoIpybUjGgoljJPIQDH6b5usHTHEuFmow?.json",
+      "final_json": {
+        "asset": "RAREMEMEDICI",
+        "pgpsig": "Memeticx",
+        "description": "Patron Saint of Memetics.",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://bjyombgx374y6udb2557ajwoayznypqgcpupady2fvcarmyj43vq.ar.io/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us?.png",
+        "image_large": "https://2m5e57fntdf5wymodotbyx4a3bykg5lhvwnamxrgrmbvirsjuwvq.ar.io/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas?.gif",
+        "twitter": "https://x.com/Memeticx",
+        "website": "https://pepe.wtf/artists/Memeticx"
+      },
+      "media": {
+        "thumb": {
+          "txid": "CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us",
+          "url": "https://arweave.net/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us",
+          "ario_url": "https://bjyombgx374y6udb2557ajwoayznypqgcpupady2fvcarmyj43vq.ar.io/CnDmBNff-Y9QYdd78CbOBjLcPgYT6PAPGi1ECLMJ5us?.png",
+          "name": "miniChrest (1).png"
+        },
+        "image": {
+          "txid": "0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas",
+          "url": "https://arweave.net/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas",
+          "ario_url": "https://2m5e57fntdf5wymodotbyx4a3bykg5lhvwnamxrgrmbvirsjuwvq.ar.io/0zpO_K2Yy9thjhumHF-A2HCjdWetmgZeJosDVEZJpas?.gif",
+          "name": "RAREMEMEDICI.gif"
+        }
+      }
+    },
+    {
+      "txid": "aa1b59a42ebabdbfa1c70f4b7cda8e237761afdf6a152ab945c092434851f684",
+      "claimed_at": "2026-04-11T20:29:28.226Z",
+      "json_url": "https://6py7lfahubqzne7sjgyp3ranjqx5otcfqxnvhggnsuxol3vjxana.ar.io/8_H1lAegYZaT8kmw_cQNTC_XTEWF21OYzZUu5e6puBo?.json",
+      "final_json": {
+        "asset": "BLADEPEPE",
+        "pgpsig": "Memeticx",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://shs6gfoxaznmi3ksfpvlpglr5cr2blxxiwgngc6ud2foats266ha.ar.io/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944?.png",
+        "image_large": "https://j5eiirdf7h5bxtzxithkdtknuf42bt7zzcrkkclp6xxml2ci7ryq.ar.io/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE?.png",
+        "twitter": "https://x.com/Memeticx",
+        "website": "https://pepe.wtf/artists/Memeticx"
+      },
+      "media": {
+        "thumb": {
+          "txid": "keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944",
+          "url": "https://arweave.net/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944",
+          "ario_url": "https://shs6gfoxaznmi3ksfpvlpglr5cr2blxxiwgngc6ud2foats266ha.ar.io/keXjFdcGWsRtUivqt5lx6KOgrvdFjNML1B6K4E5a944?.png",
+          "name": "Blade48x48.png"
+        },
+        "image": {
+          "txid": "T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE",
+          "url": "https://arweave.net/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE",
+          "ario_url": "https://j5eiirdf7h5bxtzxithkdtknuf42bt7zzcrkkclp6xxml2ci7ryq.ar.io/T0iERGX5-hvPN0TOoc1NoXmgz_nIoqUJb_XuxehI_HE?.png",
+          "name": "BLADEPEPE.png"
+        }
+      }
+    },
+    {
+      "txid": "0db379d883afe8bc3fab96b020a52ac45b40cbbf91f78e332c31ec5766eabfbf",
+      "claimed_at": "2026-04-11T21:16:10.604Z",
+      "json_url": "https://pnaoo5vlxajqqux42m2fqzb5aotuobkgei6rre7vctut4q7555cq.ar.io/e0Dndqu4EwhS_NM0WGQ9A6dHBUYiPRiT9RTpPkP970U?.json",
+      "final_json": {
+        "asset": "BLADEPEPE",
+        "pgpsig": "Memeticx",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://aln5ivdio2gj3kf5oggm2jtfs5rr4c4bdqblydj4hdu6k4ev2uwq.ar.io/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0?.png",
+        "image_large": "https://t322wqcjx5rayi66v32r2fovvpsncdcnd4qkdd4acgm4ct5gwhea.ar.io/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg?.png",
+        "twitter": "https://x.com/Memeticx",
+        "website": "https://pepe.wtf/artists/Memeticx"
+      },
+      "media": {
+        "thumb": {
+          "txid": "AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0",
+          "url": "https://arweave.net/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0",
+          "ario_url": "https://aln5ivdio2gj3kf5oggm2jtfs5rr4c4bdqblydj4hdu6k4ev2uwq.ar.io/AtvUVGh2jJ2ovXGMzSZll2MeC4EcArwNPDjp5XCV1S0?.png",
+          "name": "Blade48x48.png"
+        },
+        "image": {
+          "txid": "nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg",
+          "url": "https://arweave.net/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg",
+          "ario_url": "https://t322wqcjx5rayi66v32r2fovvpsncdcnd4qkdd4acgm4ct5gwhea.ar.io/nvWrQEm_Ygwj3q71HRXVq-TRDE0fIKGPgBGZwU-mscg?.png",
+          "name": "BLADEfinal.png"
+        }
+      }
+    },
+    {
+      "txid": "58c6c2372e14bd122a656bb10d2d80b075ac4b03a41daa9c20e9fd0c0a961c01",
+      "claimed_at": "2026-04-11T22:37:32.698Z",
+      "json_url": "https://hrv32bhh5lh2i2tcpf23mugjnyhdmhkmbu7xqwi2ngbzgnofk5dq.ar.io/PGu9BOfqz6RqYnl1tlDJbg42HUwNP3hZGmmDkzXFV0c?.json",
+      "final_json": {
+        "asset": "GMABSURDISM",
+        "pgpsig": "Memeticx",
+        "description": "This piece was inspired by \"The Myth of Sisyphus\" by Daniel Perkins which is often associated with Existentialist Philosophy and the Absurdism movement.  The Pepe community, and the crypto artist community at large, say GM to this environment each and every day.  GM!",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://5ottapwowkqaailti3rjpxcmxwgelapjwemjsyg2otch3uefy3zq.ar.io/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM?.png",
+        "image_large": "https://zeyecf6lc3vqyu2vpjgjlgum6atlrw7kz4kabzhxjixyf7orsvsa.ar.io/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ?.png",
+        "twitter": "https://x.com/Memeticx",
+        "website": "https://pepe.wtf/artists/Memeticx"
+      },
+      "media": {
+        "thumb": {
+          "txid": "66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM",
+          "url": "https://arweave.net/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM",
+          "ario_url": "https://5ottapwowkqaailti3rjpxcmxwgelapjwemjsyg2otch3uefy3zq.ar.io/66cwPs6yoAAhc0bil9xMvYxFgemxGJlg2nTEfdCFxvM?.png",
+          "name": "GM48x48.png"
+        },
+        "image": {
+          "txid": "yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ",
+          "url": "https://arweave.net/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ",
+          "ario_url": "https://zeyecf6lc3vqyu2vpjgjlgum6atlrw7kz4kabzhxjixyf7orsvsa.ar.io/yTBBF8sW6wxTVXpMlZqM8Ca42-rPFADk90ovgv3RlWQ?.png",
+          "name": "GMABSURDISM.png"
+        }
+      }
+    },
+    {
+      "txid": "21ce2e2613658193713a3c6613c3b71040eaaddaa9d960cfe238c3b8d701e11e",
+      "claimed_at": "2026-04-12T17:23:32.058Z",
+      "json_url": "https://7leeyj5vnnxxlf4lyafsunhoifwhgiaqickkylct6fofceb3ektq.ar.io/-shMJ7Vrb3WXi8ALKjTuQWxzIBBAlKwsU_FcURA7Iqc?.json",
+      "final_json": {
+        "asset": "GMABSURDISM",
+        "pgpsig": "Memeticx",
+        "description": "This piece was inspired by \"The Myth of Sisyphus\" by Darrel Perkins which is often associated with the Absurdism movement and Albert Camus. The Pepe community, and the crypto artist community at large, say GM to this environment each and every day. GM!",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://lduok23kyjoqpjsfvkuhdrxwga3knm36drxg4yia57ar76wnaroa.ar.io/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw?.png",
+        "image_large": "https://nq7pvgswvgbkvptk3qnrjb4kwgo3vhqo6g35nbzfr775gn4f2f7q.ar.io/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8?.png",
+        "twitter": "https://x.com/Memeticx",
+        "website": "https://pepe.wtf/artists/Memeticx"
+      },
+      "media": {
+        "thumb": {
+          "txid": "WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw",
+          "url": "https://arweave.net/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw",
+          "ario_url": "https://lduok23kyjoqpjsfvkuhdrxwga3knm36drxg4yia57ar76wnaroa.ar.io/WOjla2rCXQemRaqoccb2MDams34cbm5hAO_BH_rNBFw?.png",
+          "name": "GM48x48.png"
+        },
+        "image": {
+          "txid": "bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8",
+          "url": "https://arweave.net/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8",
+          "ario_url": "https://nq7pvgswvgbkvptk3qnrjb4kwgo3vhqo6g35nbzfr775gn4f2f7q.ar.io/bD76mlapgqq-atwbFIeKsZ26ng7xt9aHJY__0zeF0X8?.png",
+          "name": "GMABSURDISM.png"
+        }
+      }
+    },
+    {
+      "txid": "07280b3db49a95bca082c410d2387d92220e38d8e8f27d016df308e49a5a66f3",
+      "claimed_at": "2026-04-16T11:39:42.967Z",
+      "json_url": "https://k72ryoku7p74nzkp2drb7dlybfwkdlnnww6k22jzxyo6kdg5cmmq.ar.io/V_UcOVT7_8blT9DiH414CWyhra21vK1pOb4d5QzdExk?.json",
+      "final_json": {
+        "asset": "NAKABANKSY",
+        "pgpsig": "@S1MONS",
+        "description": "Nakamoto by Banksy",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://h3dkt563qtt5zjalamp4sjlfccmxhvgbj7borcpgsjh4p5wcjnkq.ar.io/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U?.png",
+        "image_large": "https://oulkwdnjwqdmvecrp7tcypsc3kojhkvo34gs6qzbxq5pi6o57ujq.ar.io/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM?.png",
+        "twitter": "Https//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U",
+          "url": "https://arweave.net/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U",
+          "ario_url": "https://h3dkt563qtt5zjalamp4sjlfccmxhvgbj7borcpgsjh4p5wcjnkq.ar.io/Psap99uE59ykCwMfySVlEJlz1MFPwuiJ5pJPx_bCS1U?.png",
+          "name": "webResult 13.png"
+        },
+        "image": {
+          "txid": "dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM",
+          "url": "https://arweave.net/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM",
+          "ario_url": "https://oulkwdnjwqdmvecrp7tcypsc3kojhkvo34gs6qzbxq5pi6o57ujq.ar.io/dRarDam0BsqQUX_mLD5C2pyTqq7fDS9DIbw69Hnd_RM?.png",
+          "name": "webResult.png"
+        }
+      }
+    },
+    {
+      "txid": "c8b3a902092e6fe5b7cf60c479a7b1711321d3f50ffb7d1f7b0637a9901410fd",
+      "claimed_at": "2026-04-17T11:37:38.600Z",
+      "json_url": "https://cbr7gyyusonrwor3ue2uxkycpjfkoz67bvssd5smhv3iytkwei4q.ar.io/EGPzYxSTmxs6O6E1S6sCekqnZ98NZSH2TD12jE1WIjk?.json",
+      "final_json": {
+        "asset": "SATOSHES",
+        "pgpsig": "S1Mon",
+        "description": "Street art of Satoshi",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://2o6khqma73eiws7nzlpuw5fbtgzhwo3f26qkmkgyy6mgjox6o4uq.ar.io/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk?.png",
+        "image_large": "https://x6doha3yfxuiv6nr3ehmu64qm2awxixvkgppxl2t2peucvlueg3a.ar.io/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk",
+          "url": "https://arweave.net/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk",
+          "ario_url": "https://2o6khqma73eiws7nzlpuw5fbtgzhwo3f26qkmkgyy6mgjox6o4uq.ar.io/07yjwYD-yItL7crfS3ShmbJ7O2XXoKYo2MeYZLr-dyk?.png",
+          "name": "IMG_7228.png"
+        },
+        "image": {
+          "txid": "v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY",
+          "url": "https://arweave.net/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY",
+          "ario_url": "https://x6doha3yfxuiv6nr3ehmu64qm2awxixvkgppxl2t2peucvlueg3a.ar.io/v4bjg3gt6Ir5sdkOynuQZoFrovVRnvuvU9PJQVV0IbY?.jpg",
+          "name": "IMG_7228.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "e03b860dd66d20c918559f2fcc60d7e00720cfde2ac776c7fee333e5a89cc76f",
+      "claimed_at": "2026-04-18T14:40:10.028Z",
+      "json_url": "https://grbaogbhemwan55rionwodguo6oixravanw6rvqlj55qwwunc3ca.ar.io/NEIHGCcjLAb3sUObZwzUd5yLxBUDbejWC097C1qNFsQ?.json",
+      "final_json": {
+        "asset": "FAKEARWYN.SUPERMARIOWYN",
+        "pgpsig": "@S1MONS",
+        "description": "Been a while since I made one of these",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://5lqlprz2cfmwpfvfk37h53a6wpr6tfoqhsvy2jv3v5637n3cn72q.ar.io/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U?.png",
+        "image_large": "https://f7bz4uuwugjdti3u7ce2kztrjl6o5562bal77znelwa54m552mbq.ar.io/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U",
+          "url": "https://arweave.net/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U",
+          "ario_url": "https://5lqlprz2cfmwpfvfk37h53a6wpr6tfoqhsvy2jv3v5637n3cn72q.ar.io/6uC3xzoRWWeWpVb-fuwes-PpldA8q40mu699v7dib_U?.png",
+          "name": "IMG_7327.png"
+        },
+        "image": {
+          "txid": "L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM",
+          "url": "https://arweave.net/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM",
+          "ario_url": "https://f7bz4uuwugjdti3u7ce2kztrjl6o5562bal77znelwa54m552mbq.ar.io/L8OeUpahkjmjdPiJpWZxSvzu99oIF__lpF2B3jO90wM?.png",
+          "name": "IMG_7327.png"
+        }
+      }
+    },
+    {
+      "txid": "2d4d9b093245e90f1d2080548317f7ab730a909be08a310b9ebfa9a7656f1bd2",
+      "claimed_at": "2026-04-18T15:13:49.352Z",
+      "json_url": "https://mkobzj5wrxxqo3gj223lecfgr7eftpwlin5erupl4epprcnklxsa.ar.io/Ypwcp7aN7wdsyda2sgimj8hZvstDekjR6-Ee-ImqXeQ?.json",
+      "final_json": {
+        "asset": "SKATETOSHI",
+        "pgpsig": "@S1MONS",
+        "description": "Skating Satoshi",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://rv7i6ucw42e2bvkd3ug33iceyhzqe7aibxgspcdok43olwzdotia.ar.io/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA?.png",
+        "image_large": "https://34dp5quevtrdvstts5btkhf3fnuud5h5oqgjiqxqsavo4nuh345a.ar.io/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA",
+          "url": "https://arweave.net/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA",
+          "ario_url": "https://rv7i6ucw42e2bvkd3ug33iceyhzqe7aibxgspcdok43olwzdotia.ar.io/jX6PUFbmiaDVQ90NvaBEwfMCfAgNzSeIblc25dsjdNA?.png",
+          "name": "webResult 14.png"
+        },
+        "image": {
+          "txid": "3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo",
+          "url": "https://arweave.net/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo",
+          "ario_url": "https://34dp5quevtrdvstts5btkhf3fnuud5h5oqgjiqxqsavo4nuh345a.ar.io/3wb-woSs4jrKc5dDNRy7K2lB9P10DJRC8JAq7jaH3zo?.jpg",
+          "name": "webResult.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "6e221dfc7ac2a669c04f2feba9a9bab5592397b2b47cb6313e8286298dddc706",
+      "claimed_at": "2026-04-22T18:53:27.020Z",
+      "json_url": "https://sly7xkx3ff2dhstpkmmbfpd6gzy3hc6difw5ael2uesmzxqfljhq.ar.io/kvH7qvspdDPKb1MYErx-NnGzi8NBbdAReqEkzN4FWk8?.json",
+      "final_json": {
+        "asset": "DJCORNKNOME",
+        "pgpsig": "CORRECT",
+        "description": "DJ CORN KNOME SPINS \"ILL KINETIK\" by DJ DUST-IT",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://wgikrn52ftx2wkcm7rhff7ir2aiksdnl2zplk636ld4qfco3q2xq.ar.io/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8?.png",
+        "image_large": "https://oy7zgjzbgwqq2bogzxv3zrojf2yg3efj7awsmjaqmmazl3xekxua.ar.io/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg?.png",
+        "image_large_hd": "https://fndnb45j545nmsh3kpeibntxugmyui6mgdeks4jjrj6nqbvdq4ga.ar.io/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww?.png",
+        "audio": "https://bimvzlypgyod342falqdaxjjzb6e3chvy7wa4ylnxu3xzm45rviq.ar.io/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE?.mp3",
+        "twitter": "https://x.com/bencustom",
+        "website": "https://fauxbitcorn.com/#submit"
+      },
+      "media": {
+        "thumb": {
+          "txid": "sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8",
+          "url": "https://arweave.net/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8",
+          "ario_url": "https://wgikrn52ftx2wkcm7rhff7ir2aiksdnl2zplk636ld4qfco3q2xq.ar.io/sZCot7os76soTPxOUv0R0BCpDavWXrV7flj5Aonbhq8?.png",
+          "name": "48.png"
+        },
+        "image": {
+          "txid": "dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg",
+          "url": "https://arweave.net/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg",
+          "ario_url": "https://oy7zgjzbgwqq2bogzxv3zrojf2yg3efj7awsmjaqmmazl3xekxua.ar.io/dj-TJyE1oQ0Fxs3rvMXJLrBtkKn4LSYkEGMBle7kVeg?.png",
+          "name": "Picsart_26-04-22_11-36-52-313.png"
+        },
+        "imageHd": {
+          "txid": "K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww",
+          "url": "https://arweave.net/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww",
+          "ario_url": "https://fndnb45j545nmsh3kpeibntxugmyui6mgdeks4jjrj6nqbvdq4ga.ar.io/K0bQ86nvOtZI-1PIgLZ3oZmKI8wwyKlxKYp82Aajhww?.png",
+          "name": "Picsart_26-04-22_11-36-52-313.png"
+        },
+        "audio": {
+          "txid": "Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE",
+          "url": "https://arweave.net/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE",
+          "ario_url": "https://bimvzlypgyod342falqdaxjjzb6e3chvy7wa4ylnxu3xzm45rviq.ar.io/Chlcrw82HD3zRQLgMF0pyHxNiPXH7A5hbb03fLOdjVE?.mp3",
+          "name": "ill-kinetik.mp3"
+        }
+      }
+    },
+    {
+      "txid": "d74b9f980b44e75b5c2eb3db0aadcf552bb5d69e4ec4491aa724d6e762118d81",
+      "claimed_at": "2026-04-24T16:42:08.140Z",
+      "json_url": "https://gej4lhvde34yjoxwqbtdpxaol2j5fkoxxg6xh5pmvez7xa4apf5a.ar.io/MRPFnqMm-YS69oBmN9wOXpPSqde5vXP17Kkz-4OAeXo?.json",
+      "final_json": {
+        "asset": "MINISATOSHI",
+        "pgpsig": "@S1MONS",
+        "description": "Miniature Satoshi Nakamoto",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://kt4zo2tfqxdzewpvmgivxrynookmlqkbtn6noybl452alpjijceq.ar.io/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk?.png",
+        "image_large": "https://uxnci7nwxmhqqejlr4tp5rdcbktgcilrjyf3gdbkfp4cypniwtfa.ar.io/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk",
+          "url": "https://arweave.net/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk",
+          "ario_url": "https://kt4zo2tfqxdzewpvmgivxrynookmlqkbtn6noybl452alpjijceq.ar.io/VPmXamWFx5JZ9WGRW8cNc5TFwUGbfNdgK-d0Bb0oSIk?.png",
+          "name": "webResult 15.png"
+        },
+        "image": {
+          "txid": "pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo",
+          "url": "https://arweave.net/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo",
+          "ario_url": "https://uxnci7nwxmhqqejlr4tp5rdcbktgcilrjyf3gdbkfp4cypniwtfa.ar.io/pdokfba7DwgRK48m_sRiCqZhIXFOC7MMKiv4LD2otMo?.jpg",
+          "name": "webResult.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "b7e6d416fb5a28eaaa7e5665ce746320a2394dc787607bfa38815d38fb0e1fa7",
+      "claimed_at": "2026-04-26T16:02:30.541Z",
+      "json_url": "https://so34b3owx36noz7yyofis5flzw3uwzfvm2d4n7ox3ig2ecyspkyq.ar.io/k7fA7da-_Ndn-MOKiXSrzbdLZLVmh8b919oNogsSerE?.json",
+      "final_json": {
+        "asset": "NOVAX",
+        "pgpsig": "@S1MONS",
+        "description": "Novax follow up",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://k3bpgvjo7vtkg6whh4ldduzxfwcnof7tqdmj3u7qbxvzgkkhalca.ar.io/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ?.png",
+        "image_large": "https://tkyk7mbhpmkot5lc7p24wlmqnozkdrqueg7zlkdnm5qzzae6yutq.ar.io/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ",
+          "url": "https://arweave.net/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ",
+          "ario_url": "https://k3bpgvjo7vtkg6whh4ldduzxfwcnof7tqdmj3u7qbxvzgkkhalca.ar.io/VsLzVS79ZqN6xz8WMdM3LYTXF_OA2J3T8A3rkylHAsQ?.png",
+          "name": "IMG_7592.png"
+        },
+        "image": {
+          "txid": "mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc",
+          "url": "https://arweave.net/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc",
+          "ario_url": "https://tkyk7mbhpmkot5lc7p24wlmqnozkdrqueg7zlkdnm5qzzae6yutq.ar.io/mrCvsCd7FOn1Yvv1yy2Qa7KhxhQhv5WobWdhnICexSc?.png",
+          "name": "IMG_7592.png"
+        }
+      }
+    },
+    {
+      "txid": "5d9a634ad08f3fd4dfba46837cc20b9eb2e80460162c7d643f1c66441a835ce8",
+      "claimed_at": "2026-04-26T16:37:52.497Z",
+      "json_url": "https://ziaarsjbsd6xn6ceoj3yn7xs2ptvsqgna37f24ygr7u56vltiifq.ar.io/ygAIySGQ_Xb4RHJ3hv7y0-dZQM0G_l1zBo_p31VzQgs?.json",
+      "final_json": {
+        "asset": "CODIES",
+        "pgpsig": "@S1MONS",
+        "description": "Mini Cody the Campbell",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://azm3wc3n73kg5kj7jhl56axjoltk374tpjcrudpo5djdt64uflea.ar.io/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg?.png",
+        "image_large": "https://mduqdt66kwibdsymhd3izltfoi6t7wa46kodasoc74f7qpnxxy4q.ar.io/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg",
+          "url": "https://arweave.net/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg",
+          "ario_url": "https://azm3wc3n73kg5kj7jhl56axjoltk374tpjcrudpo5djdt64uflea.ar.io/Blm7C23-1G6pP0nX3wLpcuat_5N6RRoN7ujSOfuUKsg?.png",
+          "name": "webResult 16.png"
+        },
+        "image": {
+          "txid": "YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk",
+          "url": "https://arweave.net/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk",
+          "ario_url": "https://mduqdt66kwibdsymhd3izltfoi6t7wa46kodasoc74f7qpnxxy4q.ar.io/YOkBz95VkBHLDDj2jK5lcj0_2BzynDBJwv8L-D23vjk?.jpg",
+          "name": "webResult.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "5a2a6959f269dde22f20a014b9edf1e3b4a22bc0bd9f4422d55b9009da2db40e",
+      "claimed_at": "2026-05-04T15:03:11.806Z",
+      "json_url": "https://tswr5urnr2gh4voe4ydthyojcllr2njej3oi3sgkychfax5htiia.ar.io/nK0e0i2OjH5VxOYHM-HJEtcdNSRO3I3IysCOUF-nmhA?.json",
+      "final_json": {
+        "asset": "WOJAKNFT.TWO",
+        "pgpsig": "@S1MONS",
+        "description": "Becoming Wojak",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://u67m5komvp63jb7yeontsftje3amyncsalnmw24rovm23pmx426q.ar.io/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0?.png",
+        "image_large": "https://g5sdnxu675nsyigfaad5iojetfsudr3jdu756bfv5zumd5vgshmq.ar.io/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0",
+          "url": "https://arweave.net/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0",
+          "ario_url": "https://u67m5komvp63jb7yeontsftje3amyncsalnmw24rovm23pmx426q.ar.io/p77Oqcyr_bSH-CObORZpJsDMNFIC2strkXVZrb2X5r0?.png",
+          "name": "IMG_7939.png"
+        },
+        "image": {
+          "txid": "N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk",
+          "url": "https://arweave.net/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk",
+          "ario_url": "https://g5sdnxu675nsyigfaad5iojetfsudr3jdu756bfv5zumd5vgshmq.ar.io/N2Q23p7_WywgxQAH1DkkmWVBx2kdP98Ete5owfamkdk?.png",
+          "name": "IMG_7939.png"
+        }
+      }
+    },
+    {
+      "txid": "d77ec1df3c7c2ee7ed7e5f44c456f6969273027408b3b0eb4323f42a52a746ee",
+      "claimed_at": "2026-05-05T16:32:08.330Z",
+      "json_url": "https://gnfqgkonfrsefksyjhizygacy56flmoic2ykv7hkg2ctnljm7gsa.ar.io/M0sDKc0sZEKqWEnRnBgCx3xVscgWsKr86jaFNq0s-aQ?.json",
+      "final_json": {
+        "asset": "LIMEWIRE",
+        "pgpsig": "@S1MONS",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://qf7wzn5wkgrgchnh4xof4pcshrrgstinzfpzrkzqw7rfiazkurea.ar.io/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg?.png",
+        "image_large": "https://dgx34dunhmxxlgq6lmun74r7yl7gyeszvs3wwt6q7f5ymthngcoa.ar.io/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg",
+          "url": "https://arweave.net/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg",
+          "ario_url": "https://qf7wzn5wkgrgchnh4xof4pcshrrgstinzfpzrkzqw7rfiazkurea.ar.io/gX9st7ZRomEdp-XcXjxSPGJpTQ3JX5irMLfiVAMqpEg?.png",
+          "name": "IMG_8051 2.png"
+        },
+        "image": {
+          "txid": "Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw",
+          "url": "https://arweave.net/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw",
+          "ario_url": "https://dgx34dunhmxxlgq6lmun74r7yl7gyeszvs3wwt6q7f5ymthngcoa.ar.io/Ga--Do07L3WaHlso3_I_wv5sElmst2tP0Pl7hkztMJw?.jpg",
+          "name": "IMG_8051.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "abd936cb1d4418ce995160999296e42d6c9e2f34d2281a49ed3647309a1c6dba",
+      "claimed_at": "2026-05-06T12:03:49.869Z",
+      "json_url": "https://b6hzj6hmhzo6oy6co4d6q2w2tyugs67x3bcobern5hgx33vmeeua.ar.io/D4-U-Ow-XedjwncH6Granihpe_fYROCSLenNfe6sISg?.json",
+      "final_json": {
+        "asset": "THEAFROMAN",
+        "pgpsig": "@S1MONS",
+        "description": "I got high",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://twnydlyqng6ayhpe6e2n2cvkekh6j56ghooqpan4bjlvwnglbdza.ar.io/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI?.png",
+        "image_large": "https://losq356mm6hjzbg3mpd3r6nizt3wdykbgf2bhf3vpudq6ada5lsq.ar.io/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU?.jpg",
+        "twitter": "HTTPS//x.com"
+      },
+      "media": {
+        "thumb": {
+          "txid": "nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI",
+          "url": "https://arweave.net/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI",
+          "ario_url": "https://twnydlyqng6ayhpe6e2n2cvkekh6j56ghooqpan4bjlvwnglbdza.ar.io/nZuBrxBpvAwd5PE03QqqIo_k98Y7nQeBvApXWzTLCPI?.png",
+          "name": "IMG_8100.png"
+        },
+        "image": {
+          "txid": "W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU",
+          "url": "https://arweave.net/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU",
+          "ario_url": "https://losq356mm6hjzbg3mpd3r6nizt3wdykbgf2bhf3vpudq6ada5lsq.ar.io/W6UN98xnjpyE22PHuPmozPdh4UExdBOXdX0HDwBg6uU?.jpg",
+          "name": "IMG_8100.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "a0b9a2cd6836a64e893c0d4d8939c871d131cfa4eca05f98e47c876404c2032d",
+      "claimed_at": "2026-05-07T12:49:26.961Z",
+      "json_url": "https://pf5dsqzwla6qlu2aff5jjubq6evwrolvvshk3x2y52ybjkc6zdoa.ar.io/eXo5QzZYPQXTQCl6lNAw8StouXWsjq3fWO6wFKheyNw?.json",
+      "final_json": {
+        "asset": "PUCKMAN",
+        "pgpsig": "@S1MONS",
+        "description": "Original Logo for Pacman",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://qml27jh5vsezxpxs7ofmmro3pdkbu435pngwo2avaiconfjh5q6a.ar.io/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw?.png",
+        "image_large": "https://6wljwuja6l2sgthnu6qroexpjq5cfyyimwmbmhbvejhduhgwli4q.ar.io/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw",
+          "url": "https://arweave.net/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw",
+          "ario_url": "https://qml27jh5vsezxpxs7ofmmro3pdkbu435pngwo2avaiconfjh5q6a.ar.io/gxevpP2siZu-8vuKxkXbeNQac317TWdoFQIE5pUn7Dw?.png",
+          "name": "IMG_6746.png"
+        },
+        "image": {
+          "txid": "9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk",
+          "url": "https://arweave.net/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk",
+          "ario_url": "https://6wljwuja6l2sgthnu6qroexpjq5cfyyimwmbmhbvejhduhgwli4q.ar.io/9ZabUSDy9SNM7aehFxLvTDoi4whlmBYcNSJOOhzWWjk?.jpg",
+          "name": "IMG_6746.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "e6915e449dc5349dddb28bcbcce7ff6c51dba78eeb97c4ae02348965700f9b2e",
+      "claimed_at": "2026-05-07T13:04:09.945Z",
+      "json_url": "https://fpcjjmdbtro7wtmyx4qkhop3fejxiemwzkfti67zr6ebldj7xjzq.ar.io/K8SUsGGcXftNmL8go7n7KRN0EZbKizR7-Y-IFY0_unM?.json",
+      "final_json": {
+        "description": "Nakamoto Super Mario",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://ypn2hqfsjxxpmi3uwhoe57lzutneojwurqf2lntpdcibiaincrdq.ar.io/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc?.png",
+        "image_large": "https://hkgbfzyyaxvsn74pt6mws7jdjzcmbiuqdhtleuojme5nbrtsfhaa.ar.io/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA?.jpg",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc",
+          "url": "https://arweave.net/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc",
+          "ario_url": "https://ypn2hqfsjxxpmi3uwhoe57lzutneojwurqf2lntpdcibiaincrdq.ar.io/w9ujwLJN7vYjdLHcTv15pNpHJtSMC6W2bxiQFAENFEc?.png",
+          "name": "webResult 19.png"
+        },
+        "image": {
+          "txid": "OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA",
+          "url": "https://arweave.net/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA",
+          "ario_url": "https://hkgbfzyyaxvsn74pt6mws7jdjzcmbiuqdhtleuojme5nbrtsfhaa.ar.io/OowS5xgF6yb_j5-ZaX0jTkTAopAZ5rJRyWE60MZyKcA?.jpg",
+          "name": "webResult.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "20ef3552599792e534db7aeda7b273651aa1116b9ab8bbe568d3e31e0443bb2a",
+      "claimed_at": "2026-05-07T14:05:06.431Z",
+      "json_url": "https://hodgpgflnqpoiowy54pca3xs37bbotagywzmkn2boutfzybcneqa.ar.io/O4ZnmKtsHuQ62O8eIG7y38IXTAbFssU3QXUmXOAiaSA?.json",
+      "final_json": {
+        "asset": "A8857936745080044219",
+        "pgpsig": "@S1MONS",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://c44pc4m46h2f3mjjtliwowsg3bm6y33dvjcg35l5upx6s5l7i2wa.ar.io/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw?.png",
+        "image_large": "https://p66q5zjhqmft6eyuuiczlr5mgvxoariarri65zjdix5q5qfm7ygq.ar.io/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0?.jpg"
+      },
+      "media": {
+        "thumb": {
+          "txid": "FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw",
+          "url": "https://arweave.net/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw",
+          "ario_url": "https://c44pc4m46h2f3mjjtliwowsg3bm6y33dvjcg35l5upx6s5l7i2wa.ar.io/FzjxcZzx9F2xKZrRZ1pG2Fnsb2OqRG31faPv6XV_Rqw?.png",
+          "name": "IMG_8152.png"
+        },
+        "image": {
+          "txid": "f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0",
+          "url": "https://arweave.net/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0",
+          "ario_url": "https://p66q5zjhqmft6eyuuiczlr5mgvxoariarri65zjdix5q5qfm7ygq.ar.io/f70O5SeDCz8TFKIFlcesNW7gRQCMUe7lI0X7DsCs_g0?.jpg",
+          "name": "IMG_8152.jpeg"
+        }
+      }
+    },
+    {
+      "txid": "133b09c476fa37da6ddae804de9f0717711ab018f4bdee72e5eae5f62cf7ee60",
+      "claimed_at": "2026-05-13T16:19:56.313Z",
+      "json_url": "https://s3r3phw2ferxyfvcv67i6vaoaspxqx7w74tg5bkd3nggrrlgvvia.ar.io/luO3ntopI3wWoq--j1QOBJ94X_b_Jm6FQ9tMaMVmrVA?.json",
+      "final_json": {
+        "asset": "GAYPIGEON",
+        "pgpsig": "@S1MONS",
+        "description": "Only Gay bird in the flock",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://a3owe4rdd7o7ueqpzpfkvvaftjmlppfe65hpdcaomq2acjgk7rya.ar.io/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA?.png",
+        "image_large": "https://tfwjvi4sw65bwnzn26t34j423rbmm7n4bcyll57ge2udiaqgwptq.ar.io/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA",
+          "url": "https://arweave.net/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA",
+          "ario_url": "https://a3owe4rdd7o7ueqpzpfkvvaftjmlppfe65hpdcaomq2acjgk7rya.ar.io/Bt1iciMf3foSD8vKqtQFmli3vKT3TvGIDmQ0ASTK_HA?.png",
+          "name": "IMG_8363.png"
+        },
+        "image": {
+          "txid": "mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c",
+          "url": "https://arweave.net/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c",
+          "ario_url": "https://tfwjvi4sw65bwnzn26t34j423rbmm7n4bcyll57ge2udiaqgwptq.ar.io/mWyao5K3uhs3Ldenviea3ELGfbwIsLX35iaoNAIGs-c?.png",
+          "name": "IMG_8363.png"
+        }
+      }
+    },
+    {
+      "txid": "b1089025092898fbbdc43ac2ca7862ae06884a24928128bfb6aa5d464f366271",
+      "claimed_at": "2026-05-14T13:44:08.981Z",
+      "json_url": "https://4yhnzukq423kshoyisaulipmwfvl7antrgeunbilmsdo3eu6pkeq.ar.io/5g7c0VDmtqkd2ESBRaHssWq_gbOJiUaFC2SG7ZKeeok?.json",
+      "final_json": {
+        "asset": "EMINPEPE",
+        "pgpsig": "@S1MONS",
+        "description": "What a mess",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://rd7jqnhut4wtjyt7sdljs23iwq2qlprtqgkepjbiascxcczyl4jq.ar.io/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM?.png",
+        "image_large": "https://ycnhx6m455tsorkyv5bpqrpnqbyh3cnojpuzoej2yhdltt6lxbwq.ar.io/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM",
+          "url": "https://arweave.net/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM",
+          "ario_url": "https://rd7jqnhut4wtjyt7sdljs23iwq2qlprtqgkepjbiascxcczyl4jq.ar.io/iP6YNPSfLTTif5DWmWtotDUFvjOBlEekKASFcQs4XxM?.png",
+          "name": "IMG_8373.png"
+        },
+        "image": {
+          "txid": "wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0",
+          "url": "https://arweave.net/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0",
+          "ario_url": "https://ycnhx6m455tsorkyv5bpqrpnqbyh3cnojpuzoej2yhdltt6lxbwq.ar.io/wJp7-ZzvZydFWK9C-EXtgHB9ia5L6ZcROsHGuc_LuG0?.png",
+          "name": "IMG_8373.png"
+        }
+      }
+    },
+    {
+      "txid": "54d081354a267376c3cb0d6875092e73fbd2b7910322446d179ae931a65a37a9",
+      "claimed_at": "2026-05-16T14:56:24.912Z",
+      "json_url": "https://psi2s5niof6kbdkhztds3sgqvd5l4qtbro7qtww7wmhx7fxbu6fq.ar.io/fJGpdahxfKCNR8zHLcjQqPq-QmGLvwna37MPf5bhp4s?.json",
+      "final_json": {
+        "asset": "KEVINWARSH",
+        "pgpsig": "@S1MONS",
+        "description": "We are all Kevin!",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://nxyimgosjvz55dz7chjvzqvbv6xq5rpgdcxgla4mzlzgelzr7omq.ar.io/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k?.png",
+        "image_large": "https://4ditjm5ox5frv63anephe2k535x3762v3kdwcuczq253stegwngq.ar.io/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00?.png",
+        "twitter": "HTTPS//x.com/simondmorris"
+      },
+      "media": {
+        "thumb": {
+          "txid": "bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k",
+          "url": "https://arweave.net/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k",
+          "ario_url": "https://nxyimgosjvz55dz7chjvzqvbv6xq5rpgdcxgla4mzlzgelzr7omq.ar.io/bfCGGdJNc96PPxHTXMKhr68OxeYYrmWDjMryYi8x-5k?.png",
+          "name": "IMG_8473.png"
+        },
+        "image": {
+          "txid": "4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00",
+          "url": "https://arweave.net/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00",
+          "ario_url": "https://4ditjm5ox5frv63anephe2k535x3762v3kdwcuczq253stegwngq.ar.io/4NE0s66_Sxr7YGkecmld32-_-1Xah2FQWYa7uUyGs00?.png",
+          "name": "IMG_8473.png"
+        }
+      }
+    },
+    {
+      "txid": "643f3526a02a67af25fbd3b6c86fcdc968b43706927783504afb5c891bdd2249",
+      "claimed_at": "2026-05-22T16:58:40.724Z",
+      "json_url": "https://xem72zzevu5sat7iyyom3jv7dhvzdey65oz32tjh7nu3a6q4oqaq.ar.io/uRn9ZyStOyBP6MYczaa_GeuRkx7rs71NJ_tpsHocdAE?.json",
+      "final_json": {
+        "asset": "Penpenaerial",
+        "pgpsig": "Bcarver",
+        "description": "UnfukwitableAerialPenPen",
+        "category": "Art",
+        "subcategory": "NFT",
+        "image": "https://rvgijgwdkss5rvijuysw6a4rwuiwlxgzp5n75kp45oa75kh3y56a.ar.io/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w?.png",
+        "image_large": "https://7ekzojgc2ecffjlbjop6u7mcvbznydydttk5fvmfqn55tvi2x7ea.ar.io/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g?.png"
+      },
+      "media": {
+        "thumb": {
+          "txid": "jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w",
+          "url": "https://arweave.net/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w",
+          "ario_url": "https://rvgijgwdkss5rvijuysw6a4rwuiwlxgzp5n75kp45oa75kh3y56a.ar.io/jUyEmsNUpdjVCaYlbwORtRFl3Nl_W_6p_OuB_qj7x3w?.png",
+          "name": "PENPENAERIAL_48×48.png"
+        },
+        "image": {
+          "txid": "-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g",
+          "url": "https://arweave.net/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g",
+          "ario_url": "https://7ekzojgc2ecffjlbjop6u7mcvbznydydttk5fvmfqn55tvi2x7ea.ar.io/-RWXJMLRBFKlYUuf6n2CqHLcDwOc1dLVhYN72dUav8g?.png",
+          "name": "PENPENAERIAL_400×560.png"
+        }
+      }
+    },
+    {
+      "txid": "c296287a209c236d8f4c23e266823c3dbc9f66d8c8fee3f3ac86a7628e96ee19",
+      "claimed_at": "2026-05-24T21:17:50.466Z",
+      "json_url": "https://raa7f2y5acozklk25ouhm7jhey2swr54z26zcuyztl2wvab5zfvq.ar.io/iAHy6x0AnZUtWuuodn0nJjUrR7zOvZFTGZr1aoA9yWs?.json",
+      "final_json": {
+        "asset": "TOKENEYEZED",
+        "pgpsig": "Bcarver",
+        "category": "Art",
+        "image": "https://rjcd67qfoqeh2ttedr2bmyhi6knbr432farmsgixvxaff7j4zlbq.ar.io/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM?.png",
+        "image_large": "https://mtj5mmlfxuta4l5glzvpymqamkkwahizrmpf7moblq5skcss2sda.ar.io/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY?.png"
+      },
+      "media": {
+        "thumb": {
+          "txid": "ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM",
+          "url": "https://arweave.net/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM",
+          "ario_url": "https://rjcd67qfoqeh2ttedr2bmyhi6knbr432farmsgixvxaff7j4zlbq.ar.io/ikQ_fgV0CH1OZBx0FmDo8poY83ooIskZF63AUv08ysM?.png",
+          "name": "TOKENEYEZED_48×48.png"
+        },
+        "image": {
+          "txid": "ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY",
+          "url": "https://arweave.net/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY",
+          "ario_url": "https://mtj5mmlfxuta4l5glzvpymqamkkwahizrmpf7moblq5skcss2sda.ar.io/ZNPWMWW9Jg4vpl5q_DIAYpVgHRmLHl-xwVw7JQpS1IY?.png",
+          "name": "TOKENEYEZED_400×560.png"
+        }
+      }
+    },
+    {
+      "txid": "7cee944a83efe2223453deba0cb762900135bdcf4b219e2e6a20e6cd5b527ca7",
+      "claimed_at": "2026-05-27T21:47:58.494Z",
+      "json_url": "https://vtspautn2e7zufeumy3zekdm75unsoeyxtxo7hx7ebdpl4vkpvdq.ar.io/rOTwUm3RP5oUlGY3kihs_2jZOJi87u-e_yBG9fKqfUc?.json",
+      "final_json": {
+        "asset": "PEPEANUNNAKI",
+        "pgpsig": "Denim_Dee",
+        "description": "From the golden mines of Nibiru they descended-star-forged sovereigns decreeing fate in cuneiform and croak. Yet in the great flood of memes arose one who wears the horned crown lightly: 'Rare Pepe feels good, man.' The Anunnaki laughed in seven voices, and humanity was remade in His image... one smug expression at a time.",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://3gjcuidyrkwi4vmb32w6b5i57rugyxjygvg7ms7feaiy7udoo7ia.ar.io/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A?.png",
+        "image_large": "https://rbyvlz7exvizezacfrwhd6tipoaofdoqc25et3dcmdihxojk6pea.ar.io/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g?.png",
+        "twitter": "@DenimDolphin888",
+        "website": "greypepeproject.com"
+      },
+      "media": {
+        "thumb": {
+          "txid": "2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A",
+          "url": "https://arweave.net/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A",
+          "ario_url": "https://3gjcuidyrkwi4vmb32w6b5i57rugyxjygvg7ms7feaiy7udoo7ia.ar.io/2ZIqIHiKrI5Vgd6t4PUd_GhsXTg1TfZL5SARj9Bud9A?.png",
+          "name": "tinkpro-resized-48x48(3).png"
+        },
+        "image": {
+          "txid": "iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g",
+          "url": "https://arweave.net/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g",
+          "ario_url": "https://rbyvlz7exvizezacfrwhd6tipoaofdoqc25et3dcmdihxojk6pea.ar.io/iHFV5-S9UZJkAixscfpoe4DijdAWuknsYmDQe7kq88g?.png",
+          "name": "PEPEANUNNAKI Final.png"
+        }
+      }
+    },
+    {
+      "txid": "09345cd564b8b32ae272f0648b320ff6de46d22b2afbcd6ea236f97fc0fdab0f",
+      "claimed_at": "2026-05-28T17:39:49.084Z",
+      "json_url": "https://fge5fz2j7nye574xbuu7z7j47lyciohpp3kkiyvvjj6weyneem7q.ar.io/KYnS50n7cE7_lw0p_P08-vAkOO9-1KRitUp9YmGkIz8?.json",
+      "final_json": {
+        "asset": "PEPEROGERS",
+        "pgpsig": "Bcarver",
+        "description": "QClearancePepetriot",
+        "category": "Art",
+        "image": "https://nadyktfkfovbabufqwx5nv5kqs4sh447xccay7gu22nkdeddsoua.ar.io/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g?.png",
+        "image_large": "https://tvru4p2efyd5htzzcm6k3uyi2oasgm6g3g3ccntw5pvmcj2iw6ia.ar.io/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A?.png"
+      },
+      "media": {
+        "thumb": {
+          "txid": "aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g",
+          "url": "https://arweave.net/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g",
+          "ario_url": "https://nadyktfkfovbabufqwx5nv5kqs4sh447xccay7gu22nkdeddsoua.ar.io/aAeFTKorqhAGhYWv1teqhLkj85-4hAx81NaaoZBjk6g?.png",
+          "name": "PEPEROGERS_48x48.png"
+        },
+        "image": {
+          "txid": "nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A",
+          "url": "https://arweave.net/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A",
+          "ario_url": "https://tvru4p2efyd5htzzcm6k3uyi2oasgm6g3g3ccntw5pvmcj2iw6ia.ar.io/nWNOP0QuB9PPORM8rdMI04EjM8bZtiE2duvqwSdIt5A?.png",
+          "name": "PEPEROGERS_400x560.png"
+        }
+      }
+    },
+    {
+      "txid": "1cf7ef191b9621539b22f9991b1564dc83fb2557be3db9eff6a45aac07cc6b52",
+      "claimed_at": "2026-05-30T18:37:21.619Z",
+      "json_url": "https://3nyay6ni3tcl6psg44w3ydzpzlghig6kdnhycavegbelzao5xv7a.ar.io/23AMeajcxL8-RuctvA8vysx0G8obT4ECpDBIvIHdvX4?.json",
+      "final_json": {
+        "asset": "IWANTTOKEK",
+        "pgpsig": "OK_SA",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://xmuzxrpdg4izfgz7grgkg6tfhqg3cslahghjnwqptktzmpfnd6ma.ar.io/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g?.png",
+        "image_large": "https://mxyjg2ea6fzcrly6bfdg63t46o2g4qgrc7re5qjkwxutzhbyb7gq.ar.io/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80?.jpg",
+        "twitter": "@SeanAlbrite406",
+        "website": "www.GreyPepeProject.com"
+      },
+      "media": {
+        "thumb": {
+          "txid": "uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g",
+          "url": "https://arweave.net/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g",
+          "ario_url": "https://xmuzxrpdg4izfgz7grgkg6tfhqg3cslahghjnwqptktzmpfnd6ma.ar.io/uymbxeM3EZKbPzRMo3plPA2xSWA5jpbaD5qnljytH5g?.png",
+          "name": "tinkpro-resized-48x48(4).png"
+        },
+        "image": {
+          "txid": "ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80",
+          "url": "https://arweave.net/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80",
+          "ario_url": "https://mxyjg2ea6fzcrly6bfdg63t46o2g4qgrc7re5qjkwxutzhbyb7gq.ar.io/ZfCTaIDxciivHglGb25887RuQNEX4k7BKrXpPJw4D80?.jpg",
+          "name": "IWANTTOKEK.jpg"
+        }
+      }
+    },
+    {
+      "txid": "1e93a1d4d16a468f30e5d482438e094aef4a775f4f4b61159ee4cecdc705c658",
+      "claimed_at": "2026-05-30T21:47:57.088Z",
+      "json_url": "https://l7ojapxjivizcg4b47el2omgqeqqrdr7jbjgzw7mn5ivcpktzvpq.ar.io/X9yQPulFUZEbgefIvTmGgSEIjj9IUmzb7G9RUT1TzV8?.json",
+      "final_json": {
+        "asset": "IWANTTOKEK",
+        "pgpsig": "OK_SA",
+        "category": "Art",
+        "subcategory": "Pepe",
+        "image": "https://tyftac7vruoghwitdav32rxbxp7qzf5k3r3musm63fx6ysrgulfa.ar.io/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso?.png",
+        "image_large": "https://ejnml7ntg6atoqunj5cxelgszpgpdrdakb3jc3yhd42rbg7abtba.ar.io/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI?.png",
+        "twitter": "https://x.com/SeanAlbrite406",
+        "website": "www.GreyPepeProject.com"
+      },
+      "media": {
+        "thumb": {
+          "txid": "ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso",
+          "url": "https://arweave.net/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso",
+          "ario_url": "https://tyftac7vruoghwitdav32rxbxp7qzf5k3r3musm63fx6ysrgulfa.ar.io/ngswC_WNHGPZExgrvUbhu_8Ml6rcdspJntlv7Eomoso?.png",
+          "name": "Thumb.png"
+        },
+        "image": {
+          "txid": "IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI",
+          "url": "https://arweave.net/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI",
+          "ario_url": "https://ejnml7ntg6atoqunj5cxelgszpgpdrdakb3jc3yhd42rbg7abtba.ar.io/IlrF_bM3gTdCjU9FcizSy8zxxGBQdpFvBx81EJvgDMI?.png",
+          "name": "IWANTTOKEK.png"
         }
       }
     }
